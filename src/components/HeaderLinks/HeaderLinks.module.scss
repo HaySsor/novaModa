@@ -1,0 +1,13 @@
+.headerLinksWrapper{
+  position: fixed;
+  inset: 0;
+  background-image: linear-gradient(45deg , var(--header-color), #fff);
+  z-index: -1;
+  padding:50px 20px;
+  overflow: auto;
+}
+
+.headerLinksBox{
+  display: flex;
+  flex-direction: column;
+}

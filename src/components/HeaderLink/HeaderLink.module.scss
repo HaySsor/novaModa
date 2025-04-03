@@ -1,0 +1,38 @@
+.linkBox{
+  padding: 10px 0px;
+}
+
+.linkBoxTop{
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.linkBoxBottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.subLinkItem{
+  width: 100%;
+  padding: 10px 28px;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: var(--text-color);
+  position: relative;
+
+  &:before{
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    bottom: 0;
+    background-color: var(--primary-color);
+  }
+}
