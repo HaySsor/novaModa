@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
 import {Header} from "@/components/Header/Header";
+import {CartMobileButton} from "@/components/CartMobileButton/CartMobileButton";
 
 const LatoSans = Lato({
     weight: ['300', '400', '700'],

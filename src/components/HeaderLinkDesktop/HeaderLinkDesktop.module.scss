@@ -1,0 +1,55 @@
+.headerLinkWrapper{
+  position: relative;
+}
+
+.linkBoxTopDesktop{
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 3px 6px;
+  transition: background-color 0.3s;
+  border-radius: 8px;
+
+  span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: lightslategrey;
+  }
+
+  &:hover{
+    background-color: var(--primary-color);
+  }
+}
+
+.subLinksDesktopWrapper{
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  padding-top: 8px;
+  display: none;
+}
+.subLinksDesktopBox{
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(2,1fr);
+}
+.subLinkItem{
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 3px 5px;
+  &:hover{
+    color: var(--secondary-color);
+  }
+}
+
+.headerLinkWrapper:hover > .subLinksDesktopWrapper{
+  display: block;
+}

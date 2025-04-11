@@ -1,14 +1,44 @@
 .header {
   padding: 8px  15px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
   background-image: linear-gradient(45deg , var(--header-color), #fff);
   box-shadow: 0 0 10px rgba(51, 51, 51, 0.20);
 
-  img {
-    object-fit: cover;
+  @media (width > 1260px) {
+    background: transparent;
+    box-shadow: none;
+  }
+}
+
+.headerWrapper{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  @media (width > 1260px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+.headerWrapperRight{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logoContainer {
+  position: relative;
+  width: 70px;
+  height: 40px;
+}
+
+@media (width > 1260px) {
+  .logoContainer {
+    width: 70px;
+    height: 30px;
   }
 }
