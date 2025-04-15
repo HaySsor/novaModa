@@ -1,5 +1,6 @@
 import styles from './HeroWrapper.module.scss'
 import Image from "next/image";
+import {HeroButton} from "@/app/components/HeroButtons/HeroButtons";
 
 export const HeroWrapper = ({}) => {
 
@@ -23,9 +24,7 @@ export const HeroWrapper = ({}) => {
                 <p>Szyjemy ręcznie, z dbałością o najmniejszy detal, bo wierzymy, że prawdziwe piękno kryje się w
                     jakości, a styl zaczyna się od serca.</p>
 
-                <div className={styles.heroButtonBox}>
-                    
-                </div>
+               <HeroButton />
             </div>
 
             <div className={styles.heroDesktopImagesGrid}>

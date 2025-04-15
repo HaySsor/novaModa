@@ -1,0 +1,51 @@
+.image{
+  object-fit: cover;
+}
+
+.aboutUsRow{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+  overflow: hidden;
+
+  @media (width > 1260px) {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+  }
+}
+
+.aboutUsRowLeft{
+  position: absolute;
+  z-index: 90;
+  bottom: 0;
+  height: 45%;
+  padding: 15px 15px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  color: #fff;
+
+  h3{
+    font-size: 2rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 10px;
+  }
+  p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 10px;
+  }
+}
+.aboutUsRowRight{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+

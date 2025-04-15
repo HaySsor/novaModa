@@ -5,10 +5,11 @@
 
   @media (width > 1260px) {
     box-shadow: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     gap: 20px;
     border-radius: 0;
+    align-items: center;
   }
 }
 
@@ -21,8 +22,7 @@
 }
 
 .heroMobileImage{
-  object-fit: cover;
-  object-position: -10% 50%;
+  object-fit: contain;
   border-radius: 20px;
 }
 
@@ -30,6 +30,7 @@
   isolation: isolate;
   padding: 15px 15px 20px;
   display: flex;
+  max-width: 500px;
   flex-direction: column;
   gap: 6px;
   text-align: center;
@@ -51,7 +52,6 @@
 
   @media (width > 1260px) {
     position: relative;
-    width: 500px;
     align-self: center;
     bottom: unset;
     text-align: left;
@@ -80,7 +80,7 @@
     border-radius: 15px;
     gap: 10px;
     .heroDesktopImage{
-      border-radius: 15px;
+      border-radius: 20px;
       object-fit: cover;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 

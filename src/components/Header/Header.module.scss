@@ -1,5 +1,4 @@
 .header {
-  padding: 8px  15px;
   width: 100%;
   background-image: linear-gradient(45deg , var(--header-color), #fff);
   box-shadow: 0 0 10px rgba(51, 51, 51, 0.20);
@@ -11,6 +10,7 @@
 }
 
 .headerWrapper{
+  padding: 8px  15px;
   position: relative;
   display: flex;
   justify-content: center;

@@ -1,0 +1,9 @@
+.heroButtonBox{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
+  @media (width > 1260px){
+    justify-content: flex-start;
+  }
+}

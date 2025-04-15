@@ -1,0 +1,18 @@
+.bestSellersWrapper{
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.bestSellersItems{
+  gap: 25px;
+  display: grid;
+
+  grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+
+  @media (width > 1260px) {
+    grid-template-columns: repeat( auto-fit, 300px );
+    justify-content: center;
+  }
+}

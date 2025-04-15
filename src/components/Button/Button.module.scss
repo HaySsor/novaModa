@@ -1,0 +1,33 @@
+.button{
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.fullButton{
+  background-color: var(--secondary-color);
+  color: #fff;
+  &:hover{
+    background-color: var(--secondary-color-hover);
+  }
+}
+.borderButton{
+  border: 1px solid var(--secondary-color);
+  color: #887660;
+}
+
+.disabledButton{
+  background-color: #c8cacc;
+  border: none;
+  opacity: 0.3;
+  color: lightslategrey;
+  cursor: not-allowed;
+}

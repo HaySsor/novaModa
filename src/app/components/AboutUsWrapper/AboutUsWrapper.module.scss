@@ -1,0 +1,17 @@
+.aboutUsWrapper{
+    margin-top: 30px;
+    padding: 10px 0;
+}
+
+.aboutUsContainer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    @media (width > 1260px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
