@@ -1,0 +1,58 @@
+.reviewItemWrapper{
+  flex-shrink: 0;
+  width: 100%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 20px;
+  scroll-snap-align: center;
+  padding: 10px;
+
+  @media (width > 768px) {
+    max-width: 350px;
+  }
+}
+.reviewItemTop{
+  display: flex;
+  gap: 10px;
+}
+
+.reviewItemTopLeft{
+  img{
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 3px solid var(--secondary-color);
+
+  }
+}
+
+.reviewItemName{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  .name{
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .age{
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+}
+
+.reviewItemTopRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+.reviewItemBottom{
+  padding: 0 10px 10px;
+  p{
+    font-size: 1.3rem;
+    font-weight: 300;
+    font-style: italic;
+  }
+}

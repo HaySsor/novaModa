@@ -1,7 +1,7 @@
 import styles from './AboutUsRow.module.scss';
 import Image from "next/image";
 import {Scissors} from 'lucide-react';
-import {AboutUsSectionsType} from "@/app/components/AboutUsWrapper/AboutUsWrapper";
+import {AboutUsSectionsType} from "@/app/_components/AboutUsWrapper/AboutUsWrapper";
 import {DynamicIcon} from "lucide-react/dynamic";
 
 type Props = {

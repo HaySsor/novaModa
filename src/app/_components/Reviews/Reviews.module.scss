@@ -1,0 +1,21 @@
+.reviewsWrapper{
+  padding-top: 60px;
+  gap: 30px;
+  overflow-x: hidden;
+
+}
+
+.reviewsContainer{
+  margin-top: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 16px;
+
+  list-style: none;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+
+  @media (width > 1260px) {
+    justify-content: center;
+  }
+}

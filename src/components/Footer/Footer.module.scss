@@ -1,0 +1,110 @@
+.footer{
+  width: 100%;
+  background-color: rgba(51, 51, 51, 1);
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 20px 20px 0 0;
+  isolation: isolate;
+}
+
+.footerWrapper{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px 10px;
+  height: 100%;
+  gap: 15px;
+  row-gap: 30px;
+
+  @media (width > 1260px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.footerForm{
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #e1e1e1;
+  grid-column: 1/-1;
+
+  @media (width > 1260px) {
+    grid-column: 1/2;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+.companyInfo{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+
+.companyTitle{
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.logoBox{
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerAddress{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-self: center;
+  align-self: center;
+
+  h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #fff;
+  }
+  span{
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 400;
+  }
+}
+
+.footerLinks{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-self: center;
+  justify-self: center;
+
+  h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  span{
+    padding-left: 32px;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}

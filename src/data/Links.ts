@@ -18,7 +18,7 @@ export const navigationLinks: { links: Category[] } = {
             name: 'Damskie',
             id: 1,
             icon: 'flower',
-            path: '/damskie',
+            path: '/woman',
             subcategories: [
                 { name: 'Bluzy', id: 1 },
                 { name: 'Sukienki', id: 2 },
@@ -34,7 +34,7 @@ export const navigationLinks: { links: Category[] } = {
             name: 'Męskie',
             id: 2,
             icon: 'biceps-flexed',
-            path: '/meskie',
+            path: '/men',
             subcategories: [
                 { name: 'Koszule', id: 9 },
                 { name: 'Spodnie', id: 10 },

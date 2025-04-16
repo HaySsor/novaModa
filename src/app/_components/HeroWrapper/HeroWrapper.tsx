@@ -1,6 +1,6 @@
 import styles from './HeroWrapper.module.scss'
 import Image from "next/image";
-import {HeroButton} from "@/app/components/HeroButtons/HeroButtons";
+import {HeroButton} from "@/app/_components/HeroButtons/HeroButtons";
 
 export const HeroWrapper = ({}) => {
 

@@ -51,9 +51,26 @@ export const BestsellersData : BestsellerItemType[] = [
     {
         id : 3,
         categorySex: 2,
-        categoryClothes : 1,
+        categoryClothes : 3,
         name : 'Trampki Męskie Nova',
         sex : 'men',
+        price: 220,
+        isFavourite: false,
+        mainImage: '/clothes/shoes.png',
+        availableSize : ['40','41','42','43','44'],
+        mainImageAlt: "tu",
+        description: "testowy opis testowy opis testowy opis testowy opis testowy opis testowy opis testowy opis testowy opis",
+        images:[
+            {src: '/clothes/shoes.png', alt: 'tu' }
+        ]
+    },
+
+    {
+        id : 4,
+        categorySex: 1,
+        categoryClothes : 3,
+        name : 'Trampki Damsie Nova',
+        sex : 'woman',
         price: 220,
         isFavourite: false,
         mainImage: '/clothes/shoes.png',

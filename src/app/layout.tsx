@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
 import {Header} from "@/components/Header/Header";
-import {CartMobileButton} from "@/components/CartMobileButton/CartMobileButton";
+import {Footer} from "@/components/Footer/Footer";
 
 const LatoSans = Lato({
     weight: ['300', '400', '700'],
@@ -23,6 +23,7 @@ export default function RootLayout({
       <body className={LatoSans.className}>
         <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

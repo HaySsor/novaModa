@@ -1,5 +1,5 @@
 import styles from './AboutUsWrapper.module.scss'
-import {AboutUsRow} from "@/app/components/AboutUsRow/AboutUsRow";
+import {AboutUsRow} from "@/app/_components/AboutUsRow/AboutUsRow";
 
 export type  AboutUsSectionsType = {
     title: string,

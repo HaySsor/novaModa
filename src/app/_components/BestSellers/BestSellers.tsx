@@ -1,8 +1,8 @@
 'use client'
-import styles from './BestSellers.module.scss'
+import styles from './BestSellers.module.scss';
 import {BestsellerItemType, BestsellersData} from "@/data/Bestsellers";
+import {MouseEvent, useEffect, useState} from "react";
 import {ItemCard} from "@/components/ItemCard/ItemCard";
-import {MouseEvent, MouseEventHandler, useEffect, useState} from "react";
 
 export const BestSellers = () =>{
     const [bestSellers, setBestSellers] = useState<BestsellerItemType[]>([]);
