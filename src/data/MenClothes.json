@@ -1,0 +1,331 @@
+{
+  "1": [
+    {
+      "sex": "man",
+      "name": "Koszula Męska Nova Classic",
+      "price": 149.99,
+      "isFavourite": false,
+      "mainImage": "/images/man/shirts/classic1.jpg",
+      "mainImageAlc": "Klasyczna koszula męska z długim rękawem",
+      "description": "Elegancka, ręcznie szyta koszula wykonana z naturalnej bawełny.",
+      "images": [
+        { "src": "/images/man/shirts/classic1.jpg", "alc": "Widok z przodu" },
+        { "src": "/images/man/shirts/classic1b.jpg", "alc": "Widok z tyłu" }
+      ]
+    },
+    {
+      "sex": "man",
+      "name": "Koszula Lniania Beżowa",
+      "price": 179.50,
+      "isFavourite": false,
+      "mainImage": "/images/man/shirts/linen1.jpg",
+      "mainImageAlc": "Lniana koszula męska",
+      "description": "Oddychająca koszula z lnu idealna na lato.",
+      "images": [
+        { "src": "/images/man/shirts/linen1.jpg", "alc": "Widok z przodu" },
+        { "src": "/images/man/shirts/linen1b.jpg", "alc": "Widok z profilu" }
+      ]
+    },
+    {
+      "sex": "man",
+      "name": "Koszula Oversize Granatowa",
+      "price": 139.00,
+      "isFavourite": false,
+      "mainImage": "/images/man/shirts/oversize1.jpg",
+      "mainImageAlc": "Koszula oversize",
+      "description": "Nowoczesny krój oversize z miękkiego materiału.",
+      "images": [
+        { "src": "/images/man/shirts/oversize1.jpg", "alc": "Zbliżenie materiału" },
+        { "src": "/images/man/shirts/oversize1b.jpg", "alc": "Na modelu" }
+      ]
+    }
+  ],
+  "2": [
+    {
+      "sex": "man",
+      "name": "Spodnie Chinos Piaskowe",
+      "price": 159.99,
+      "isFavourite": false,
+      "mainImage": "/images/man/pants/chinos1.jpg",
+      "mainImageAlc": "Spodnie męskie chinos",
+      "description": "Wygodne spodnie z elastycznej bawełny z polskiej szwalni.",
+      "images": [
+        { "src": "/images/man/pants/chinos1.jpg", "alc": "Z przodu" },
+        { "src": "/images/man/pants/chinos1b.jpg", "alc": "Z tyłu" }
+      ]
+    },
+    {
+      "sex": "man",
+      "name": "Spodnie lniane Nova",
+      "price": 179.90,
+      "isFavourite": false,
+      "mainImage": "/images/man/pants/linen1.jpg",
+      "mainImageAlc": "Lniane spodnie",
+      "description": "Lniane spodnie z prostą nogawką i sznurkiem w pasie.",
+      "images": [
+        { "src": "/images/man/pants/linen1.jpg", "alc": "Widok pełny" },
+        { "src": "/images/man/pants/linen1b.jpg", "alc": "Zbliżenie" }
+      ]
+    },
+    {
+      "sex": "man",
+      "name": "Spodnie klasyczne czarne",
+      "price": 199.00,
+      "isFavourite": false,
+      "mainImage": "/images/man/pants/classicblack.jpg",
+      "mainImageAlc": "Spodnie klasyczne",
+      "description": "Klasyczny krój idealny do pracy lub na eleganckie wyjścia.",
+      "images": [
+        { "src": "/images/man/pants/classicblack.jpg", "alc": "Z przodu" },
+        { "src": "/images/man/pants/classicblackb.jpg", "alc": "Z profilu" }
+      ]
+    }
+  ],
+  "3": [
+    {
+      "sex": "man",
+      "name": "Kurtka Przejściowa Nova",
+      "price": 289.99,
+      "isFavourite": false,
+      "mainImage": "/images/man/jackets/spring1.jpg",
+      "mainImageAlc": "Kurtka przejściowa męska",
+      "description": "Lekka, odporna na wiatr kurtka idealna na wiosnę.",
+      "images": [
+        { "src": "/images/man/jackets/spring1.jpg", "alc": "Zapięta kurtka" },
+        { "src": "/images/man/jackets/spring1b.jpg", "alc": "Rozpięta kurtka" }
+      ]
+    },
+    {
+      "sex": "man",
+      "name": "Kurtka Wełniana Krótka",
+      "price": 359.00,
+      "isFavourite": false,
+      "mainImage": "/images/man/jackets/wool1.jpg",
+      "mainImageAlc": "Kurtka z wełny",
+      "description": "Stylowa i ciepła kurtka z mieszanki wełny, szyta lokalnie.",
+      "images": [
+        { "src": "/images/man/jackets/wool1.jpg", "alc": "Zbliżenie faktury" },
+        { "src": "/images/man/jackets/wool1b.jpg", "alc": "Na wieszaku" }
+      ]
+    },
+    {
+      "sex": "man",
+      "name": "Parka z bawełny organicznej",
+      "price": 399.99,
+      "isFavourite": false,
+      "mainImage": "/images/man/jackets/parka1.jpg",
+      "mainImageAlc": "Parka",
+      "description": "Wytrzymała parka z organicznej bawełny z dużym kapturem.",
+      "images": [
+        { "src": "/images/man/jackets/parka1.jpg", "alc": "Z przodu" },
+        { "src": "/images/man/jackets/parka1b.jpg", "alc": "Od boku" }
+      ]
+    }
+  ],
+  "4": [
+    {
+      "sex": "man",
+      "name": "T-shirt Basic Biały",
+      "price": 89.99,
+      "isFavourite": false,
+      "mainImage": "/images/man/tshirts/basic-white.jpg",
+      "mainImageAlc": "Biały t-shirt męski",
+      "description": "Gładki biały T-shirt z organicznej bawełny.",
+      "images": [
+        { "src": "/images/man/tshirts/basic-white.jpg", "alc": "Z przodu" },
+        { "src": "/images/man/tshirts/basic-whiteb.jpg", "alc": "Z tyłu" }
+      ]
+    },
+    {
+      "sex": "man",
+      "name": "T-shirt Nova Logo",
+      "price": 99.90,
+      "isFavourite": false,
+      "mainImage": "/images/man/tshirts/logo.jpg",
+      "mainImageAlc": "T-shirt z logo",
+      "description": "Minimalistyczny T-shirt z subtelnym logo Nova Moda.",
+      "images": [
+        { "src": "/images/man/tshirts/logo.jpg", "alc": "Na modelu" },
+        { "src": "/images/man/tshirts/logob.jpg", "alc": "Zbliżenie nadruku" }
+      ]
+    },
+    {
+      "sex": "man",
+      "name": "T-shirt Beżowy Oversize",
+      "price": 109.00,
+      "isFavourite": false,
+      "mainImage": "/images/man/tshirts/oversize-beige.jpg",
+      "mainImageAlc": "Oversize t-shirt",
+      "description": "Luźny T-shirt w kolorze piaskowym z szerokim rękawem.",
+      "images": [
+        { "src": "/images/man/tshirts/oversize-beige.jpg", "alc": "Z przodu" },
+        { "src": "/images/man/tshirts/oversize-beigeb.jpg", "alc": "Z boku" }
+      ]
+    }
+  ],
+  "5": [
+    {
+      "sex": "man",
+      "name": "Buty Nova Classic",
+      "price": 329.00,
+      "isFavourite": false,
+      "mainImage": "/images/man/shoes/classic.jpg",
+      "mainImageAlc": "Klasyczne buty męskie",
+      "description": "Skórzane buty ręcznie wykańczane, idealne do casualowych stylizacji.",
+      "images": [
+        { "src": "/images/man/shoes/classic.jpg", "alc": "Zbliżenie" },
+        { "src": "/images/man/shoes/classicb.jpg", "alc": "Z boku" }
+      ]
+    },
+    {
+      "sex": "man",
+      "name": "Sneakersy Nova Street",
+      "price": 289.90,
+      "isFavourite": false,
+      "mainImage": "/images/man/shoes/sneakers.jpg",
+      "mainImageAlc": "Sneakersy męskie",
+      "description": "Stylowe sneakersy z grubą podeszwą i minimalistycznym logo.",
+      "images": [
+        { "src": "/images/man/shoes/sneakers.jpg", "alc": "Widok pełny" },
+        { "src": "/images/man/shoes/sneakersb.jpg", "alc": "Widok z góry" }
+      ]
+    },
+    {
+      "sex": "man",
+      "name": "Trampki Beżowe Canvas",
+      "price": 199.00,
+      "isFavourite": false,
+      "mainImage": "/images/man/shoes/canvas.jpg",
+      "mainImageAlc": "Trampki z płótna",
+      "description": "Wygodne i lekkie trampki z przewiewnego materiału w stylu retro.",
+      "images": [
+        { "src": "/images/man/shoes/canvas.jpg", "alc": "Z przodu" },
+        { "src": "/images/man/shoes/canvasb.jpg", "alc": "Na nodze" }
+      ]
+    }
+  ],
+  "6": [
+    {
+      "sex": "man",
+      "name": "Pasek Skórzany Nova",
+      "price": 129.00,
+      "isFavourite": false,
+      "mainImage": "/images/man/accessories/belt.jpg",
+      "mainImageAlc": "Skórzany pasek",
+      "description": "Elegancki pasek z prawdziwej skóry z matową sprzączką.",
+      "images": [
+        { "src": "/images/man/accessories/belt.jpg", "alc": "Zwinięty pasek" },
+        { "src": "/images/man/accessories/beltb.jpg", "alc": "Na spodniach" }
+      ]
+    },
+    {
+      "sex": "man",
+      "name": "Torba Na Ramię Nova",
+      "price": 179.99,
+      "isFavourite": false,
+      "mainImage": "/images/man/accessories/bag.jpg",
+      "mainImageAlc": "Torba męska",
+      "description": "Torba typu messenger z bawełny z dodatkami skóry.",
+      "images": [
+        { "src": "/images/man/accessories/bag.jpg", "alc": "Z przodu" },
+        { "src": "/images/man/accessories/bagb.jpg", "alc": "Na ramieniu" }
+      ]
+    },
+    {
+      "sex": "man",
+      "name": "Czapka Beanie Nova",
+      "price": 79.00,
+      "isFavourite": false,
+      "mainImage": "/images/man/accessories/beanie.jpg",
+      "mainImageAlc": "Czapka męska",
+      "description": "Miękka dzianinowa czapka w kolorze piaskowym.",
+      "images": [
+        { "src": "/images/man/accessories/beanie.jpg", "alc": "Na głowie" },
+        { "src": "/images/man/accessories/beanieb.jpg", "alc": "Z profilu" }
+      ]
+    }
+  ],
+  "7": [
+    {
+      "sex": "man",
+      "name": "Sweter Klasyczny Beżowy",
+      "price": 199.00,
+      "isFavourite": false,
+      "mainImage": "/images/man/sweaters/classic.jpg",
+      "mainImageAlc": "Sweter klasyczny",
+      "description": "Ciepły sweter o klasycznym kroju z miękkiej wełny merynosa.",
+      "images": [
+        { "src": "/images/man/sweaters/classic.jpg", "alc": "Z przodu" },
+        { "src": "/images/man/sweaters/classicb.jpg", "alc": "Z tyłu" }
+      ]
+    },
+    {
+      "sex": "man",
+      "name": "Sweter Oversize Nova",
+      "price": 219.99,
+      "isFavourite": false,
+      "mainImage": "/images/man/sweaters/oversize.jpg",
+      "mainImageAlc": "Oversize sweter",
+      "description": "Luźny sweter w minimalistycznym stylu, idealny na co dzień.",
+      "images": [
+        { "src": "/images/man/sweaters/oversize.jpg", "alc": "Z przodu" },
+        { "src": "/images/man/sweaters/oversizeb.jpg", "alc": "Zbliżenie dzianiny" }
+      ]
+    },
+    {
+      "sex": "man",
+      "name": "Sweter z Golfem Piaskowy",
+      "price": 239.00,
+      "isFavourite": false,
+      "mainImage": "/images/man/sweaters/turtleneck.jpg",
+      "mainImageAlc": "Sweter z golfem",
+      "description": "Wysoki kołnierz i dopasowany krój z mieszanki wełny i bawełny.",
+      "images": [
+        { "src": "/images/man/sweaters/turtleneck.jpg", "alc": "Z przodu" },
+        { "src": "/images/man/sweaters/turtleneckb.jpg", "alc": "Z profilu" }
+      ]
+    }
+  ],
+  "8": [
+    {
+      "sex": "man",
+      "name": "Bokserki Nova Basic",
+      "price": 59.00,
+      "isFavourite": false,
+      "mainImage": "/images/man/underwear/boxers.jpg",
+      "mainImageAlc": "Bokserki męskie",
+      "description": "Komfortowe bokserki z elastycznej bawełny w neutralnym kolorze.",
+      "images": [
+        { "src": "/images/man/underwear/boxers.jpg", "alc": "Złożone" },
+        { "src": "/images/man/underwear/boxersb.jpg", "alc": "Na płasko" }
+      ]
+    },
+    {
+      "sex": "man",
+      "name": "Majtki Bawełniane Nova",
+      "price": 49.90,
+      "isFavourite": false,
+      "mainImage": "/images/man/underwear/briefs.jpg",
+      "mainImageAlc": "Majtki męskie",
+      "description": "Delikatne i przewiewne majtki męskie z polskiej bawełny.",
+      "images": [
+        { "src": "/images/man/underwear/briefs.jpg", "alc": "Z przodu" },
+        { "src": "/images/man/underwear/briefsb.jpg", "alc": "Z tyłu" }
+      ]
+    },
+    {
+      "sex": "man",
+      "name": "Zestaw 3x Skarpetki Nova",
+      "price": 39.99,
+      "isFavourite": false,
+      "mainImage": "/images/man/underwear/socks.jpg",
+      "mainImageAlc": "Zestaw skarpetek",
+      "description": "Zestaw trzech par skarpet w neutralnych odcieniach beżu i bieli.",
+      "images": [
+        { "src": "/images/man/underwear/socks.jpg", "alc": "Złożone" },
+        { "src": "/images/man/underwear/socksb.jpg", "alc": "Na modelu" }
+      ]
+    }
+  ]
+}
+

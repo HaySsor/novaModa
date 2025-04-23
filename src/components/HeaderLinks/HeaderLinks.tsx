@@ -8,10 +8,11 @@ import {Category} from "@/data/Links";
 
 type Props = {
     isOpen: boolean;
-    navigationLinks: Category[]
+    navigationLinks: Category[],
+    handleOpenMenu: () => void,
 }
 
-export const HeaderLinks = ({isOpen, navigationLinks}: Props) => {
+export const HeaderLinks = ({isOpen, navigationLinks, handleOpenMenu}: Props) => {
 
     return (
         <motion.div
@@ -22,7 +23,7 @@ export const HeaderLinks = ({isOpen, navigationLinks}: Props) => {
             <div className={styles.headerLinksBox}>
                 {navigationLinks.map(link => {
                     return (
-                        <HeaderLink key={link.id} link={link}/>
+                        <HeaderLink key={link.id} handleOpenMenu={handleOpenMenu} link={link}/>
                     )
                 })}
             </div>

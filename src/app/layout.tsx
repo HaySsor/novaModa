@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className={LatoSans.className}>
         <Header/>
         {children}
-        <Footer/>
+        {/*<Footer/>*/}
       </body>
     </html>
   );

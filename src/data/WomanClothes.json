@@ -1,0 +1,208 @@
+{
+  "1": [
+    {
+      "sex": "woman",
+      "name": "Koszula Damska Nova Klasyczna",
+      "price": 149.99,
+      "isFavourite": false,
+      "mainImage": "/images/woman/shirts/classic1.jpg",
+      "mainImageAlc": "Klasyczna koszula damska z długim rękawem",
+      "description": "Elegancka, ręcznie szyta koszula wykonana z naturalnej bawełny.",
+      "images": [
+        { "src": "/images/woman/shirts/classic1.jpg", "alc": "Widok z przodu" },
+        { "src": "/images/woman/shirts/classic1b.jpg", "alc": "Widok z tyłu" }
+      ]
+    },
+    {
+      "sex": "woman",
+      "name": "Koszula Lniania Beżowa",
+      "price": 179.50,
+      "isFavourite": false,
+      "mainImage": "/images/woman/shirts/linen1.jpg",
+      "mainImageAlc": "Lniana koszula damska",
+      "description": "Oddychająca koszula z lnu idealna na lato.",
+      "images": [
+        { "src": "/images/woman/shirts/linen1.jpg", "alc": "Widok z przodu" },
+        { "src": "/images/woman/shirts/linen1b.jpg", "alc": "Widok z profilu" }
+      ]
+    },
+    {
+      "sex": "woman",
+      "name": "Koszula Oversize Biała",
+      "price": 139.00,
+      "isFavourite": false,
+      "mainImage": "/images/woman/shirts/oversize1.jpg",
+      "mainImageAlc": "Koszula oversize damska",
+      "description": "Nowoczesny krój oversize z miękkiego materiału.",
+      "images": [
+        { "src": "/images/woman/shirts/oversize1.jpg", "alc": "Zbliżenie materiału" },
+        { "src": "/images/woman/shirts/oversize1b.jpg", "alc": "Na modelce" }
+      ]
+    }
+  ],
+  "2": [
+    {
+      "sex": "woman",
+      "name": "Spodnie Chinos Piaskowe",
+      "price": 159.99,
+      "isFavourite": false,
+      "mainImage": "/images/woman/pants/chinos1.jpg",
+      "mainImageAlc": "Spodnie damskie chinos",
+      "description": "Wygodne spodnie z elastycznej bawełny z polskiej szwalni.",
+      "images": [
+        { "src": "/images/woman/pants/chinos1.jpg", "alc": "Z przodu" },
+        { "src": "/images/woman/pants/chinos1b.jpg", "alc": "Z tyłu" }
+      ]
+    },
+    {
+      "sex": "woman",
+      "name": "Spodnie lniane Nova",
+      "price": 179.90,
+      "isFavourite": false,
+      "mainImage": "/images/woman/pants/linen1.jpg",
+      "mainImageAlc": "Lniane spodnie damskie",
+      "description": "Lniane spodnie z prostą nogawką i sznurkiem w pasie.",
+      "images": [
+        { "src": "/images/woman/pants/linen1.jpg", "alc": "Widok pełny" },
+        { "src": "/images/woman/pants/linen1b.jpg", "alc": "Zbliżenie" }
+      ]
+    },
+    {
+      "sex": "woman",
+      "name": "Spodnie klasyczne czarne",
+      "price": 199.00,
+      "isFavourite": false,
+      "mainImage": "/images/woman/pants/classicblack.jpg",
+      "mainImageAlc": "Spodnie damskie klasyczne",
+      "description": "Klasyczny krój idealny do pracy lub na eleganckie wyjścia.",
+      "images": [
+        { "src": "/images/woman/pants/classicblack.jpg", "alc": "Z przodu" },
+        { "src": "/images/woman/pants/classicblackb.jpg", "alc": "Z profilu" }
+      ]
+    }
+  ],
+  "3": [
+    {
+      "sex": "woman",
+      "name": "Kurtka Przejściowa Damska",
+      "price": 289.99,
+      "isFavourite": false,
+      "mainImage": "/images/woman/jackets/spring1.jpg",
+      "mainImageAlc": "Kurtka przejściowa damska",
+      "description": "Lekka, odporna na wiatr kurtka idealna na wiosnę.",
+      "images": [
+        { "src": "/images/woman/jackets/spring1.jpg", "alc": "Zapięta kurtka" },
+        { "src": "/images/woman/jackets/spring1b.jpg", "alc": "Rozpięta kurtka" }
+      ]
+    },
+    {
+      "sex": "woman",
+      "name": "Kurtka Wełniana Krótka",
+      "price": 359.00,
+      "isFavourite": false,
+      "mainImage": "/images/woman/jackets/wool1.jpg",
+      "mainImageAlc": "Kurtka z wełny damska",
+      "description": "Stylowa i ciepła kurtka z mieszanki wełny, szyta lokalnie.",
+      "images": [
+        { "src": "/images/woman/jackets/wool1.jpg", "alc": "Zbliżenie faktury" },
+        { "src": "/images/woman/jackets/wool1b.jpg", "alc": "Na wieszaku" }
+      ]
+    },
+    {
+      "sex": "woman",
+      "name": "Parka z bawełny organicznej",
+      "price": 399.99,
+      "isFavourite": false,
+      "mainImage": "/images/woman/jackets/parka1.jpg",
+      "mainImageAlc": "Parka damska",
+      "description": "Wytrzymała parka z organicznej bawełny z dużym kapturem.",
+      "images": [
+        { "src": "/images/woman/jackets/parka1.jpg", "alc": "Z przodu" },
+        { "src": "/images/woman/jackets/parka1b.jpg", "alc": "Od boku" }
+      ]
+    }
+  ],
+  "4": [
+    {
+      "sex": "woman",
+      "name": "T-shirt Basic Biały Damski",
+      "price": 89.99,
+      "isFavourite": false,
+      "mainImage": "/images/woman/tshirts/basic-white.jpg",
+      "mainImageAlc": "Biały t-shirt damski",
+      "description": "Gładki biały T-shirt z organicznej bawełny.",
+      "images": [
+        { "src": "/images/woman/tshirts/basic-white.jpg", "alc": "Z przodu" },
+        { "src": "/images/woman/tshirts/basic-whiteb.jpg", "alc": "Z tyłu" }
+      ]
+    },
+    {
+      "sex": "woman",
+      "name": "T-shirt Nova Logo Damski",
+      "price": 99.90,
+      "isFavourite": false,
+      "mainImage": "/images/woman/tshirts/logo.jpg",
+      "mainImageAlc": "T-shirt z logo damski",
+      "description": "Minimalistyczny T-shirt z subtelnym logo Nova Moda.",
+      "images": [
+        { "src": "/images/woman/tshirts/logo.jpg", "alc": "Na modelce" },
+        { "src": "/images/woman/tshirts/logob.jpg", "alc": "Zbliżenie nadruku" }
+      ]
+    },
+    {
+      "sex": "woman",
+      "name": "T-shirt Oversize Beżowy",
+      "price": 109.00,
+      "isFavourite": false,
+      "mainImage": "/images/woman/tshirts/oversize-beige.jpg",
+      "mainImageAlc": "Oversize t-shirt damski",
+      "description": "Luźny T-shirt w kolorze piaskowym z szerokim rękawem.",
+      "images": [
+        { "src": "/images/woman/tshirts/oversize-beige.jpg", "alc": "Z przodu" },
+        { "src": "/images/woman/tshirts/oversize-beigeb.jpg", "alc": "Z boku" }
+      ]
+    }
+  ],
+  "5": [
+    {
+      "sex": "woman",
+      "name": "Buty Nova Classic Damskie",
+      "price": 329.00,
+      "isFavourite": false,
+      "mainImage": "/images/woman/shoes/classic.jpg",
+      "mainImageAlc": "Klasyczne buty damskie",
+      "description": "Skórzane buty ręcznie wykańczane, idealne do casualowych stylizacji.",
+      "images": [
+        { "src": "/images/woman/shoes/classic.jpg", "alc": "Zbliżenie" },
+        { "src": "/images/woman/shoes/classicb.jpg", "alc": "Z boku" }
+      ]
+    },
+    {
+      "sex": "woman",
+      "name": "Sneakersy Nova Street Damskie",
+      "price": 289.90,
+      "isFavourite": false,
+      "mainImage": "/images/woman/shoes/sneakers.jpg",
+      "mainImageAlc": "Sneakersy damskie",
+      "description": "Stylowe sneakersy z grubą podeszwą i minimalistycznym logo.",
+      "images": [
+        { "src": "/images/woman/shoes/sneakers.jpg", "alc": "Widok pełny" },
+        { "src": "/images/woman/shoes/sneakersb.jpg", "alc": "Widok z góry" }
+      ]
+    },
+    {
+      "sex": "woman",
+      "name": "Trampki Beżowe Canvas Damskie",
+      "price": 199.00,
+      "isFavourite": false,
+      "mainImage": "/images/woman/shoes/canvas.jpg",
+      "mainImageAlc": "Trampki damskie z płótna",
+      "description": "Wygodne i lekkie trampki z przewiewnego materiału w stylu retro.",
+      "images": [
+        { "src": "/images/woman/shoes/canvas.jpg", "alc": "Z przodu" },
+        { "src": "/images/woman/shoes/canvasb.jpg", "alc": "Na nodze" }
+      ]
+    }
+  ]
+}
+

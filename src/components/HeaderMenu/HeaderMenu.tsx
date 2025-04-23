@@ -6,22 +6,11 @@ import {firstBar, secondBar, thirdBar} from "@/components/HeaderMenu/animations"
 import {HeaderLinks} from "@/components/HeaderLinks/HeaderLinks";
 import {navigationLinks} from "@/data/Links"
 import {HeaderLinkDesktop} from "@/components/HeaderLinkDesktop/HeaderLinkDesktop";
+import {useIsMobile} from "@/hooks/useIsMobile";
 
 export const HeaderMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const [isMobile, setIsMobile] = useState(false);
-
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            const mediaQuery = window.matchMedia('(max-width: 1260px)');
-            setIsMobile(mediaQuery.matches);
-            const handleMediaChange = (e: MediaQueryListEvent) => {
-                setIsMobile(e.matches);
-            };
-            mediaQuery.addEventListener('change', handleMediaChange)
-            return () => mediaQuery.removeEventListener('change', handleMediaChange);
-        }
-    }, []);
+    const isMobile = useIsMobile()
 
     useEffect(() => {
         if(isOpen){
@@ -58,7 +47,7 @@ export const HeaderMenu = () => {
                         className={styles.headerMenuBarsItem}
                     />
                 </div>
-                <HeaderLinks isOpen={isOpen} navigationLinks={navigationLinks.links} />
+                <HeaderLinks isOpen={isOpen} handleOpenMenu={handleOpenMenu} navigationLinks={navigationLinks.links} />
             </div>
         ) : (
             <div className={styles.headerMenuWrapperDesktop}>

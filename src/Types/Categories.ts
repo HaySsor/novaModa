@@ -1,0 +1,1 @@
+export type CategoriesType = Record<string, string>

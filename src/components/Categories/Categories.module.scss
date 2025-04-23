@@ -1,0 +1,39 @@
+.categoriesWrapper{
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.categories{
+  display: flex;
+  gap: 8px;
+  padding: 16px;
+
+  list-style: none;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.categories::-webkit-scrollbar {
+  display: none;
+}
+
+.category{
+  flex-shrink: 0;
+  scroll-snap-align: center;
+  padding: 8px 16px;
+
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.activeCategory{
+  background-color: var(--primary-color);
+  border-radius: 20px;
+}
