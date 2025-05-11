@@ -5,39 +5,54 @@
       "name": "Koszula Męska Nova Classic",
       "price": 149.99,
       "isFavourite": false,
-      "mainImage": "/images/man/shirts/classic1.jpg",
-      "mainImageAlc": "Klasyczna koszula męska z długim rękawem",
+      "mainImage": "/clothes/men/shirt/1/image1.png",
+      "mainImageAlt": "Klasyczna koszula męska z długim rękawem",
       "description": "Elegancka, ręcznie szyta koszula wykonana z naturalnej bawełny.",
       "images": [
-        { "src": "/images/man/shirts/classic1.jpg", "alc": "Widok z przodu" },
-        { "src": "/images/man/shirts/classic1b.jpg", "alc": "Widok z tyłu" }
-      ]
+        { "src": "/clothes/men/shirt/1/image1.png", "alc": "Widok z przodu" },
+        { "src": "/clothes/men/shirt/1/image2.png", "alc": "Widok z tyłu" }
+      ],
+      "id" : 1,
+      "categorySex": 2,
+      "categoryClothes" : 1,
+      "sale": false,
+      "availableSize" : ["s","m","l","xl"]
     },
     {
       "sex": "man",
       "name": "Koszula Lniania Beżowa",
       "price": 179.50,
       "isFavourite": false,
-      "mainImage": "/images/man/shirts/linen1.jpg",
-      "mainImageAlc": "Lniana koszula męska",
+      "mainImage": "/clothes/men/shirt/2/image1.png",
+      "mainImageAlt": "Lniana koszula męska",
       "description": "Oddychająca koszula z lnu idealna na lato.",
       "images": [
-        { "src": "/images/man/shirts/linen1.jpg", "alc": "Widok z przodu" },
-        { "src": "/images/man/shirts/linen1b.jpg", "alc": "Widok z profilu" }
-      ]
+        { "src": "/clothes/men/shirt/2/image1.png", "alc": "Widok z przodu" },
+        { "src": "/clothes/men/shirt/2/image2.png", "alc": "Widok z tyłu" }
+      ],
+      "id" : 2,
+      "categorySex": 2,
+      "categoryClothes" : 1,
+      "sale": false,
+      "availableSize" : ["s","xl"]
     },
     {
       "sex": "man",
       "name": "Koszula Oversize Granatowa",
       "price": 139.00,
       "isFavourite": false,
-      "mainImage": "/images/man/shirts/oversize1.jpg",
-      "mainImageAlc": "Koszula oversize",
+      "mainImage": "/clothes/men/shirt/3/image1.png",
+      "mainImageAlt": "Koszula oversize",
       "description": "Nowoczesny krój oversize z miękkiego materiału.",
       "images": [
-        { "src": "/images/man/shirts/oversize1.jpg", "alc": "Zbliżenie materiału" },
-        { "src": "/images/man/shirts/oversize1b.jpg", "alc": "Na modelu" }
-      ]
+        { "src": "/clothes/men/shirt/3/image1.png", "alc": "Widok z przodu" },
+        { "src": "/clothes/men/shirt/3/image2.png", "alc": "Widok z tyłu" }
+      ],
+      "id" : 3,
+      "categorySex": 2,
+      "categoryClothes" : 1,
+      "sale": false,
+      "availableSize" : ["s","m","l","xl"]
     }
   ],
   "2": [
@@ -46,12 +61,12 @@
       "name": "Spodnie Chinos Piaskowe",
       "price": 159.99,
       "isFavourite": false,
-      "mainImage": "/images/man/pants/chinos1.jpg",
-      "mainImageAlc": "Spodnie męskie chinos",
+      "mainImage": "/clothes/men/pants/1/image1.png",
+      "mainImageAlt": "Spodnie męskie chinos",
       "description": "Wygodne spodnie z elastycznej bawełny z polskiej szwalni.",
       "images": [
-        { "src": "/images/man/pants/chinos1.jpg", "alc": "Z przodu" },
-        { "src": "/images/man/pants/chinos1b.jpg", "alc": "Z tyłu" }
+        { "src": "/clothes/men/pants/1/image1.png", "alc": "Z przodu" },
+        { "src": "/clothes/men/pants/1/image2.png", "alc": "Z tyłu" }
       ]
     },
     {
@@ -59,12 +74,12 @@
       "name": "Spodnie lniane Nova",
       "price": 179.90,
       "isFavourite": false,
-      "mainImage": "/images/man/pants/linen1.jpg",
-      "mainImageAlc": "Lniane spodnie",
+      "mainImage": "/clothes/men/pants/2/image1.png",
+      "mainImageAlt": "Lniane spodnie",
       "description": "Lniane spodnie z prostą nogawką i sznurkiem w pasie.",
       "images": [
-        { "src": "/images/man/pants/linen1.jpg", "alc": "Widok pełny" },
-        { "src": "/images/man/pants/linen1b.jpg", "alc": "Zbliżenie" }
+        { "src": "/clothes/men/pants/2/image1.png", "alc": "Z przodu" },
+        { "src": "/clothes/men/pants/2/image2.png", "alc": "Z tyłu" }
       ]
     },
     {
@@ -72,12 +87,12 @@
       "name": "Spodnie klasyczne czarne",
       "price": 199.00,
       "isFavourite": false,
-      "mainImage": "/images/man/pants/classicblack.jpg",
-      "mainImageAlc": "Spodnie klasyczne",
+      "mainImage": "/clothes/men/pants/3/image1.png",
+      "mainImageAlt": "Spodnie klasyczne",
       "description": "Klasyczny krój idealny do pracy lub na eleganckie wyjścia.",
       "images": [
-        { "src": "/images/man/pants/classicblack.jpg", "alc": "Z przodu" },
-        { "src": "/images/man/pants/classicblackb.jpg", "alc": "Z profilu" }
+        { "src": "/clothes/men/pants/3/image1.png", "alc": "Z przodu" },
+        { "src": "/clothes/men/pants/3/image2.png", "alc": "Z tyłu" }
       ]
     }
   ],
@@ -88,7 +103,7 @@
       "price": 289.99,
       "isFavourite": false,
       "mainImage": "/images/man/jackets/spring1.jpg",
-      "mainImageAlc": "Kurtka przejściowa męska",
+      "mainImageAlt": "Kurtka przejściowa męska",
       "description": "Lekka, odporna na wiatr kurtka idealna na wiosnę.",
       "images": [
         { "src": "/images/man/jackets/spring1.jpg", "alc": "Zapięta kurtka" },
@@ -101,7 +116,7 @@
       "price": 359.00,
       "isFavourite": false,
       "mainImage": "/images/man/jackets/wool1.jpg",
-      "mainImageAlc": "Kurtka z wełny",
+      "mainImageAlt": "Kurtka z wełny",
       "description": "Stylowa i ciepła kurtka z mieszanki wełny, szyta lokalnie.",
       "images": [
         { "src": "/images/man/jackets/wool1.jpg", "alc": "Zbliżenie faktury" },
@@ -114,7 +129,7 @@
       "price": 399.99,
       "isFavourite": false,
       "mainImage": "/images/man/jackets/parka1.jpg",
-      "mainImageAlc": "Parka",
+      "mainImageAlt": "Parka",
       "description": "Wytrzymała parka z organicznej bawełny z dużym kapturem.",
       "images": [
         { "src": "/images/man/jackets/parka1.jpg", "alc": "Z przodu" },
@@ -129,7 +144,7 @@
       "price": 89.99,
       "isFavourite": false,
       "mainImage": "/images/man/tshirts/basic-white.jpg",
-      "mainImageAlc": "Biały t-shirt męski",
+      "mainImageAlt": "Biały t-shirt męski",
       "description": "Gładki biały T-shirt z organicznej bawełny.",
       "images": [
         { "src": "/images/man/tshirts/basic-white.jpg", "alc": "Z przodu" },
@@ -142,7 +157,7 @@
       "price": 99.90,
       "isFavourite": false,
       "mainImage": "/images/man/tshirts/logo.jpg",
-      "mainImageAlc": "T-shirt z logo",
+      "mainImageAlt": "T-shirt z logo",
       "description": "Minimalistyczny T-shirt z subtelnym logo Nova Moda.",
       "images": [
         { "src": "/images/man/tshirts/logo.jpg", "alc": "Na modelu" },
@@ -155,7 +170,7 @@
       "price": 109.00,
       "isFavourite": false,
       "mainImage": "/images/man/tshirts/oversize-beige.jpg",
-      "mainImageAlc": "Oversize t-shirt",
+      "mainImageAlt": "Oversize t-shirt",
       "description": "Luźny T-shirt w kolorze piaskowym z szerokim rękawem.",
       "images": [
         { "src": "/images/man/tshirts/oversize-beige.jpg", "alc": "Z przodu" },
@@ -170,7 +185,7 @@
       "price": 329.00,
       "isFavourite": false,
       "mainImage": "/images/man/shoes/classic.jpg",
-      "mainImageAlc": "Klasyczne buty męskie",
+      "mainImageAlt": "Klasyczne buty męskie",
       "description": "Skórzane buty ręcznie wykańczane, idealne do casualowych stylizacji.",
       "images": [
         { "src": "/images/man/shoes/classic.jpg", "alc": "Zbliżenie" },
@@ -183,7 +198,7 @@
       "price": 289.90,
       "isFavourite": false,
       "mainImage": "/images/man/shoes/sneakers.jpg",
-      "mainImageAlc": "Sneakersy męskie",
+      "mainImageAlt": "Sneakersy męskie",
       "description": "Stylowe sneakersy z grubą podeszwą i minimalistycznym logo.",
       "images": [
         { "src": "/images/man/shoes/sneakers.jpg", "alc": "Widok pełny" },
@@ -192,11 +207,11 @@
     },
     {
       "sex": "man",
-      "name": "Trampki Beżowe Canvas",
+      "name": "Trampki Canvas",
       "price": 199.00,
       "isFavourite": false,
       "mainImage": "/images/man/shoes/canvas.jpg",
-      "mainImageAlc": "Trampki z płótna",
+      "mainImageAlt": "Trampki z płótna",
       "description": "Wygodne i lekkie trampki z przewiewnego materiału w stylu retro.",
       "images": [
         { "src": "/images/man/shoes/canvas.jpg", "alc": "Z przodu" },
@@ -211,7 +226,7 @@
       "price": 129.00,
       "isFavourite": false,
       "mainImage": "/images/man/accessories/belt.jpg",
-      "mainImageAlc": "Skórzany pasek",
+      "mainImageAlt": "Skórzany pasek",
       "description": "Elegancki pasek z prawdziwej skóry z matową sprzączką.",
       "images": [
         { "src": "/images/man/accessories/belt.jpg", "alc": "Zwinięty pasek" },
@@ -224,7 +239,7 @@
       "price": 179.99,
       "isFavourite": false,
       "mainImage": "/images/man/accessories/bag.jpg",
-      "mainImageAlc": "Torba męska",
+      "mainImageAlt": "Torba męska",
       "description": "Torba typu messenger z bawełny z dodatkami skóry.",
       "images": [
         { "src": "/images/man/accessories/bag.jpg", "alc": "Z przodu" },
@@ -237,7 +252,7 @@
       "price": 79.00,
       "isFavourite": false,
       "mainImage": "/images/man/accessories/beanie.jpg",
-      "mainImageAlc": "Czapka męska",
+      "mainImageAlt": "Czapka męska",
       "description": "Miękka dzianinowa czapka w kolorze piaskowym.",
       "images": [
         { "src": "/images/man/accessories/beanie.jpg", "alc": "Na głowie" },
@@ -252,7 +267,7 @@
       "price": 199.00,
       "isFavourite": false,
       "mainImage": "/images/man/sweaters/classic.jpg",
-      "mainImageAlc": "Sweter klasyczny",
+      "mainImageAlt": "Sweter klasyczny",
       "description": "Ciepły sweter o klasycznym kroju z miękkiej wełny merynosa.",
       "images": [
         { "src": "/images/man/sweaters/classic.jpg", "alc": "Z przodu" },
@@ -265,7 +280,7 @@
       "price": 219.99,
       "isFavourite": false,
       "mainImage": "/images/man/sweaters/oversize.jpg",
-      "mainImageAlc": "Oversize sweter",
+      "mainImageAlt": "Oversize sweter",
       "description": "Luźny sweter w minimalistycznym stylu, idealny na co dzień.",
       "images": [
         { "src": "/images/man/sweaters/oversize.jpg", "alc": "Z przodu" },
@@ -278,7 +293,7 @@
       "price": 239.00,
       "isFavourite": false,
       "mainImage": "/images/man/sweaters/turtleneck.jpg",
-      "mainImageAlc": "Sweter z golfem",
+      "mainImageAlt": "Sweter z golfem",
       "description": "Wysoki kołnierz i dopasowany krój z mieszanki wełny i bawełny.",
       "images": [
         { "src": "/images/man/sweaters/turtleneck.jpg", "alc": "Z przodu" },
@@ -293,7 +308,7 @@
       "price": 59.00,
       "isFavourite": false,
       "mainImage": "/images/man/underwear/boxers.jpg",
-      "mainImageAlc": "Bokserki męskie",
+      "mainImageAlt": "Bokserki męskie",
       "description": "Komfortowe bokserki z elastycznej bawełny w neutralnym kolorze.",
       "images": [
         { "src": "/images/man/underwear/boxers.jpg", "alc": "Złożone" },
@@ -306,7 +321,7 @@
       "price": 49.90,
       "isFavourite": false,
       "mainImage": "/images/man/underwear/briefs.jpg",
-      "mainImageAlc": "Majtki męskie",
+      "mainImageAlt": "Majtki męskie",
       "description": "Delikatne i przewiewne majtki męskie z polskiej bawełny.",
       "images": [
         { "src": "/images/man/underwear/briefs.jpg", "alc": "Z przodu" },
@@ -319,7 +334,7 @@
       "price": 39.99,
       "isFavourite": false,
       "mainImage": "/images/man/underwear/socks.jpg",
-      "mainImageAlc": "Zestaw skarpetek",
+      "mainImageAlt": "Zestaw skarpetek",
       "description": "Zestaw trzech par skarpet w neutralnych odcieniach beżu i bieli.",
       "images": [
         { "src": "/images/man/underwear/socks.jpg", "alc": "Złożone" },

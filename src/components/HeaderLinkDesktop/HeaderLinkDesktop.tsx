@@ -1,3 +1,4 @@
+'use client'
 import styles from './HeaderLinkDesktop.module.scss'
 import {Category} from "@/data/Links";
 import {DynamicIcon} from "lucide-react/dynamic";

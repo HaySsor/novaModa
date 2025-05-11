@@ -1,21 +1,6 @@
+import {ElementType} from "@/Types/ClothesPage";
 
-export type BestsellerItemType = {
-    id: number,
-    name: string,
-    price: number,
-    categorySex : number,
-    categoryClothes: number,
-    sex: 'man' | 'woman',
-    mainImage: string,
-    mainImageAlt: string,
-    images: {src : string, alt: string}[],
-    availableSize: string[],
-    description : string,
-    isFavourite: boolean,
-}
-
-
-export const BestsellersData : BestsellerItemType[] = [
+export const BestsellersData : ElementType[] = [
     {
         id : 1,
         categorySex: 2,
@@ -23,6 +8,7 @@ export const BestsellersData : BestsellerItemType[] = [
         name : 'Koszula Męska Nova',
         sex : 'man',
         price: 120.99,
+        sale: false,
         isFavourite: false,
         mainImage: '/clothes/shirt1.png',
         mainImageAlt: "tu",
@@ -40,6 +26,7 @@ export const BestsellersData : BestsellerItemType[] = [
         isFavourite : false,
         sex : 'man',
         price: 180,
+        sale: false,
         mainImage: '/clothes/pants.png',
         availableSize : ['s','m','l','xl'],
         mainImageAlt: "tu",
@@ -55,6 +42,7 @@ export const BestsellersData : BestsellerItemType[] = [
         name : 'Trampki Męskie Nova',
         sex : 'man',
         price: 220,
+        sale: false,
         isFavourite: false,
         mainImage: '/clothes/shoes.png',
         availableSize : ['40','41','42','43','44'],
@@ -72,6 +60,7 @@ export const BestsellersData : BestsellerItemType[] = [
         name : 'Trampki Damsie Nova',
         sex : 'woman',
         price: 220,
+        sale: false,
         isFavourite: false,
         mainImage: '/clothes/shoes.png',
         availableSize : ['40','41','42','43','44'],

@@ -34,7 +34,7 @@ export const navigationLinks: { links: Category[] } = {
             name: 'Męskie',
             id: 2,
             icon: 'biceps-flexed',
-            path: '/man',
+            path: '/men',
             subcategories: [
                 { name: 'Koszule', id: 1 },
                 { name: 'Spodnie', id: 2 },

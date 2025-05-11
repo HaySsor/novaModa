@@ -1,11 +1,14 @@
 'use client'
 import styles from './BestSellers.module.scss';
-import {BestsellerItemType, BestsellersData} from "@/data/Bestsellers";
+import {BestsellersData} from "@/data/Bestsellers";
 import {MouseEvent, useEffect, useState} from "react";
 import {ItemCard} from "@/components/ItemCard/ItemCard";
+import {ElementType} from "@/Types/ClothesPage";
+import {useRouter} from "next/navigation";
 
 export const BestSellers = () =>{
-    const [bestSellers, setBestSellers] = useState<BestsellerItemType[]>([]);
+    const [bestSellers, setBestSellers] = useState<ElementType[]>([])
+    const router = useRouter()
 
     useEffect(() => {
         setBestSellers([...BestsellersData])
@@ -15,9 +18,10 @@ export const BestSellers = () =>{
     }, []);
 
 
-    const handleItemClick = (e: MouseEvent<HTMLDivElement>, item:BestsellerItemType) => {
+    const handleItemClick = (e: MouseEvent<HTMLDivElement>, item:ElementType) => {
         const target = e.target as HTMLElement;
         const heartElement = target.closest('[data-heart]');
+        const cardElement = target.closest('[data-cart]');
         if(heartElement){
             setBestSellers(prevState => {
                 return  prevState.map(el =>{
@@ -28,6 +32,10 @@ export const BestSellers = () =>{
                     }
                 })
             })
+        } else if(cardElement){
+
+        }else{
+
         }
     };
 

@@ -1,6 +1,8 @@
 import styles from './FiltersMobile.module.scss'
 import {Button} from "@/components/Button/Button";
 import {useEffect, useState} from "react";
+import {Modal} from "@/components/Modal/Moda";
+import {FilterBody} from "@/components/FilterBody/FilterBody";
 
 export const FiltersMobile = () => {
 
@@ -24,7 +26,9 @@ export const FiltersMobile = () => {
 
             <Button onClick={handleOpen} isFull={false} text={'Filtr'} icon={'settings-2'} iconSize={18} />
 
-
+            <Modal title={'Filtry'} icon={'settings-2'} isOpen={isOpen} showModal={handleOpen}>
+                <FilterBody />
+            </Modal>
         </div>
     )
 }

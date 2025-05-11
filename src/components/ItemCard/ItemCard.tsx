@@ -1,12 +1,12 @@
 import styles from './ItemCard.module.scss';
-import {BestsellerItemType} from "@/data/Bestsellers";
 import Image from "next/image";
 import { Heart , ShoppingCart} from 'lucide-react';
-import {MouseEvent, useState} from "react";
+import {MouseEvent} from "react";
+import {ElementType} from "@/Types/ClothesPage";
 
 type Props = {
-    item : BestsellerItemType
-    handleItemClick: (event: MouseEvent<HTMLDivElement>, item: BestsellerItemType) => void;
+    item : ElementType
+    handleItemClick: (event: MouseEvent<HTMLDivElement>, item: ElementType) => void;
 }
 
 export const ItemCard = ({item,handleItemClick} : Props) =>{
@@ -22,7 +22,7 @@ export const ItemCard = ({item,handleItemClick} : Props) =>{
             <div data-heart className={`${styles.itemCardFav} ${item.isFavourite ? styles.itemCardFavActive : ''}`}>
                 <Heart size={20}/>
             </div>
-            <div className={styles.itemCart}>
+            <div data-cart className={styles.itemCart}>
                 <ShoppingCart size={20} />
                 <span>Dodaj do koszyka</span>
             </div>

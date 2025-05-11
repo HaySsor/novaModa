@@ -1,12 +1,17 @@
 export type ElementType = {
-    sex: string
-    name: string
-    price: number
-    isFavourite: boolean
-    mainImage: string
-    mainImageAlc: string
-    description: string
-    images: { src: string; alc: string }[]
+    id: number,
+    name: string,
+    price: number,
+    categorySex : number,
+    categoryClothes: number,
+    sale: boolean,
+    sex: 'man' | 'woman',
+    mainImage: string,
+    mainImageAlt: string,
+    images: {src : string, alt: string}[],
+    availableSize: string[],
+    description : string,
+    isFavourite: boolean,
 }
 
 export type ClothesPage = Record<string, ElementType[]>
