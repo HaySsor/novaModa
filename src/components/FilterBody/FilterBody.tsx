@@ -74,7 +74,6 @@ export const FilterBody = (props: Props) => {
                         )
                     })}
                 </div>
-                <p>Wybrane rozmiary: {JSON.stringify(useFilter.size)}</p>
             </div>
 
             <div className={styles.filterBox}>

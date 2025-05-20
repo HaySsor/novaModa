@@ -1,10 +1,23 @@
 {
-  "1": "Koszule",
-  "2": "Spodnie",
-  "3": "Kurtki",
-  "4": "T-shirty",
-  "5": "Buty",
-  "6": "Akcesoria",
-  "7": "Swetry",
-  "8": "Bielizna"
+  "men": {
+    "1": "Koszule",
+    "2": "Spodnie",
+    "3": "Kurtki",
+    "4": "T-shirty",
+    "5": "Buty",
+    "6": "Akcesoria",
+    "7": "Swetry",
+    "8": "Bielizna"
+  },
+  "woman": {
+    "1": "Sukienki",
+    "2": "Spodnie",
+    "3": "Kurtki",
+    "4": "T-shirty",
+    "5": "Buty",
+    "6": "Akcesoria",
+    "7": "Swetry",
+    "8": "Bielizna"
+  }
 }
+

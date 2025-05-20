@@ -1,0 +1,16 @@
+.wrapper {
+  gap: 15px;
+  display: grid;
+  padding: 30px 16px 20px;
+
+  grid-template-columns: repeat( auto-fit, minmax(300px, 350px) );
+  justify-content: center;
+  position: relative;
+  z-index: -1;
+
+  @media (width > 1260px) {
+    padding: 30px 20px 20px;
+    grid-template-columns: repeat( auto-fit, 350px );
+    justify-content: start;
+  }
+}

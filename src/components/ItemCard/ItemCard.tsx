@@ -6,10 +6,22 @@ import {ElementType} from "@/Types/ClothesPage";
 
 type Props = {
     item : ElementType
-    handleItemClick: (event: MouseEvent<HTMLDivElement>, item: ElementType) => void;
 }
 
-export const ItemCard = ({item,handleItemClick} : Props) =>{
+export const ItemCard = ({item} : Props) =>{
+
+    const handleItemClick = (e: MouseEvent<HTMLDivElement>, item:ElementType) => {
+        const target = e.target as HTMLElement;
+        const heartElement = target.closest('[data-heart]');
+        const cardElement = target.closest('[data-cart]');
+        if(heartElement){
+
+        } else if(cardElement){
+
+        }else{
+
+        }
+    };
 
     const itemPrice = () => {
         return `${item.price} PLN`

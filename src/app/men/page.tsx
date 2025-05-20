@@ -1,26 +1,34 @@
 'use client'
 import styles from './men.module.scss'
+import {ElementType} from "@/Types/ClothesPage";
 import {useEffect, useState} from "react";
-import dataJson from '@/data/MenClothes.json'
-import {ClothesPage} from "@/Types/ClothesPage";
-import {PageWrapper} from "@/components/PageWrapper/PageWrapper";
+import {ProductsList} from "@/views/ProductsList/ProductsList";
 
 
 export default function Man() {
-    const [data, setData] = useState<ClothesPage>({})
+    const [products, setProducts] = useState<null | ElementType[]>()
 
     useEffect(() => {
-        setData(dataJson)
-
-        return () => {
-            setData({})
+        const fetchProducts = async () => {
+            try {
+                const res = await fetch('/api/men')
+                if (!res.ok) throw new Error(`Status ${res.status}`)
+                const data: ElementType[] = await res.json()
+                setProducts(data)
+            } catch (err) {
+                console.error('Błąd podczas ładowania produktów:', err)
+            }
         }
-    }, []);
 
+        fetchProducts()
+    }, [])
+    if(products === null){
+        return <div>Brak produktów</div>
+    }
 
     return (
-        <div className={styles.pageWrapper}>
-
+       products?.length && <div className={styles.pageWrapper}>
+            <ProductsList products={products}/>
         </div>
-    );
+    )
 }

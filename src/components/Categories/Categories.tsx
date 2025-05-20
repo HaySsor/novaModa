@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 type Props = {
-    sex : string
+    sex : 'men' | 'woman'
 }
 
 export const Categories = ({sex} :Props) =>{
@@ -16,7 +16,8 @@ export const Categories = ({sex} :Props) =>{
     const cleanPath = pathname.split('?')[0]
 
     useEffect(() => {
-        setCategories(CategoriesData)
+        const categories = CategoriesData
+        setCategories(categories[sex])
 
         return () => {
             setCategories({})

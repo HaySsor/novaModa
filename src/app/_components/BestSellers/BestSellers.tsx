@@ -18,26 +18,7 @@ export const BestSellers = () =>{
     }, []);
 
 
-    const handleItemClick = (e: MouseEvent<HTMLDivElement>, item:ElementType) => {
-        const target = e.target as HTMLElement;
-        const heartElement = target.closest('[data-heart]');
-        const cardElement = target.closest('[data-cart]');
-        if(heartElement){
-            setBestSellers(prevState => {
-                return  prevState.map(el =>{
-                    if(el.id === item.id){
-                        return {...el, isFavourite: !el.isFavourite};
-                    }else{
-                        return el
-                    }
-                })
-            })
-        } else if(cardElement){
 
-        }else{
-
-        }
-    };
 
     return (
         <div className={styles.bestSellersWrapper}>
@@ -46,7 +27,7 @@ export const BestSellers = () =>{
             <div className={styles.bestSellersItems}>
                 {bestSellers.map(item => {
                     return (
-                        <ItemCard key={item.id} item={item} handleItemClick={handleItemClick} />
+                        <ItemCard key={item.id} item={item} />
                     )
                 })}
             </div>

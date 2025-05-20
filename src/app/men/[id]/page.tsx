@@ -2,7 +2,7 @@
 
 import styles from './styles.module.scss'
 import {useFetchCategoryProducts} from "@/hooks/useFetchCategoryProduckts";
-import Image from "next/image";
+import {ProductsList} from "@/views/ProductsList/ProductsList";
 
 export default function Page() {
 
@@ -10,7 +10,7 @@ export default function Page() {
 
     return (
         <div className={styles.pageWrapper}>
-
+            <ProductsList products={products} />
         </div>
     )
 }

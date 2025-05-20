@@ -4,4 +4,9 @@
   margin: 0 auto;
   max-width: 1440px;
   margin-top: 15px;
+
+  @media (width > 1260px) {
+    min-height: 60vh;
+    border-right:  1px solid var(--secondary-color);
+  }
 }
