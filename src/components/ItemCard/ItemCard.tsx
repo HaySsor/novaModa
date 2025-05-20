@@ -3,12 +3,15 @@ import Image from "next/image";
 import { Heart , ShoppingCart} from 'lucide-react';
 import {MouseEvent} from "react";
 import {ElementType} from "@/Types/ClothesPage";
+import {useRouter} from "next/navigation";
 
 type Props = {
     item : ElementType
 }
 
 export const ItemCard = ({item} : Props) =>{
+
+    const router = useRouter()
 
     const handleItemClick = (e: MouseEvent<HTMLDivElement>, item:ElementType) => {
         const target = e.target as HTMLElement;
@@ -19,7 +22,7 @@ export const ItemCard = ({item} : Props) =>{
         } else if(cardElement){
 
         }else{
-
+            router.push(`/product/${item.id}`)
         }
     };
 

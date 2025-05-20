@@ -12,7 +12,7 @@
         { "src": "/clothes/women/dress/1/image1.png", "alc": "Widok z przodu" },
         { "src": "/clothes/women/dress/1/image2.png", "alc": "Widok z tyłu" }
       ],
-      "id": 1,
+      "id": 25,
       "categorySex": 1,
       "categoryClothes": 1,
       "sale": false,
@@ -30,7 +30,7 @@
         { "src": "/clothes/women/dress/2/image1.png", "alc": "Na modelce przodem" },
         { "src": "/clothes/women/dress/2/image2.png", "alc": "Detail koronki" }
       ],
-      "id": 2,
+      "id": 26,
       "categorySex": 1,
       "categoryClothes": 1,
       "sale": true,
@@ -48,7 +48,7 @@
         { "src": "/clothes/women/dress/3/image1.png", "alc": "Widok z boku" },
         { "src": "/clothes/women/dress/3/image2.png", "alc": "Detail falbany" }
       ],
-      "id": 3,
+      "id": 27,
       "categorySex": 1,
       "categoryClothes": 1,
       "sale": false,
@@ -68,7 +68,7 @@
         { "src": "/clothes/women/pants/1/image1.png", "alc": "Widok z przodu" },
         { "src": "/clothes/women/pants/1/image2.png", "alc": "Widok z tyłu" }
       ],
-      "id": 4,
+      "id": 28,
       "categorySex": 1,
       "categoryClothes": 2,
       "sale": false,
@@ -86,7 +86,7 @@
         { "src": "/clothes/women/pants/2/image1.png", "alc": "Z przodu" },
         { "src": "/clothes/women/pants/2/image2.png", "alc": "Z boku" }
       ],
-      "id": 5,
+      "id": 29,
       "categorySex": 1,
       "categoryClothes": 2,
       "sale": true,
@@ -104,7 +104,7 @@
         { "src": "/clothes/women/pants/3/image1.png", "alc": "Widok z przodu" },
         { "src": "/clothes/women/pants/3/image2.png", "alc": "Widok z tyłu" }
       ],
-      "id": 6,
+      "id": 30,
       "categorySex": 1,
       "categoryClothes": 2,
       "sale": false,
@@ -124,7 +124,7 @@
         { "src": "/clothes/women/jacket/1/image1.png", "alc": "Zapieta marynarka" },
         { "src": "/clothes/women/jacket/1/image2.png", "alc": "Rozpięta marynarka" }
       ],
-      "id": 7,
+      "id": 31,
       "categorySex": 1,
       "categoryClothes": 3,
       "sale": false,
@@ -142,7 +142,7 @@
         { "src": "/clothes/women/jacket/2/image1.png", "alc": "Z przodu" },
         { "src": "/clothes/women/jacket/2/image2.png", "alc": "Z tyłu" }
       ],
-      "id": 8,
+      "id": 32,
       "categorySex": 1,
       "categoryClothes": 3,
       "sale": true,
@@ -160,7 +160,7 @@
         { "src": "/clothes/women/jacket/3/image1.png", "alc": "Przód kurtki" },
         { "src": "/clothes/women/jacket/3/image2.png", "alc": "Tył kurtki" }
       ],
-      "id": 9,
+      "id":33,
       "categorySex": 1,
       "categoryClothes": 3,
       "sale": false,
@@ -180,7 +180,7 @@
         { "src": "/clothes/women/top/1/image1.png", "alc": "Z przodu" },
         { "src": "/clothes/women/top/1/image2.png", "alc": "Z tyłu" }
       ],
-      "id": 10,
+      "id": 34,
       "categorySex": 1,
       "categoryClothes": 4,
       "sale": false,
@@ -198,7 +198,7 @@
         { "src": "/clothes/women/top/2/image1.png", "alc": "Na modelce przodem" },
         { "src": "/clothes/women/top/2/image2.png", "alc": "Detail rękawa" }
       ],
-      "id": 11,
+      "id": 35,
       "categorySex": 1,
       "categoryClothes": 4,
       "sale": false,
@@ -216,7 +216,7 @@
         { "src": "/clothes/women/top/3/image1.png", "alc": "Widok z przodu" },
         { "src": "/clothes/women/top/3/image2.png", "alc": "Widok z profilu" }
       ],
-      "id": 12,
+      "id": 36,
       "categorySex": 1,
       "categoryClothes": 4,
       "sale": false,
@@ -236,7 +236,7 @@
         { "src": "/clothes/women/shoes/1/image1.png", "alc": "Z przodu" },
         { "src": "/clothes/women/shoes/1/image2.png", "alc": "Z boku" }
       ],
-      "id": 13,
+      "id": 37,
       "categorySex": 1,
       "categoryClothes": 5,
       "sale": false,
@@ -254,7 +254,7 @@
         { "src": "/clothes/women/shoes/2/image1.png", "alc": "Z przodu" },
         { "src": "/clothes/women/shoes/2/image2.png", "alc": "Z boku" }
       ],
-      "id": 14,
+      "id": 38,
       "categorySex": 1,
       "categoryClothes": 5,
       "sale": true,
@@ -272,7 +272,7 @@
         { "src": "/clothes/women/shoes/3/image1.png", "alc": "Z przodu" },
         { "src": "/clothes/women/shoes/3/image2.png", "alc": "Z tyłu" }
       ],
-      "id": 15,
+      "id": 39,
       "categorySex": 1,
       "categoryClothes": 5,
       "sale": false,
@@ -291,7 +291,7 @@
       "images": [
         { "src": "/clothes/women/accessories/1/image1.png", "alc": "Widok z przodu" }
       ],
-      "id": 16,
+      "id": 40,
       "categorySex": 1,
       "categoryClothes": 6,
       "sale": false,
@@ -308,7 +308,7 @@
       "images": [
         { "src": "/clothes/women/accessories/2/image1.png", "alc": "Z bliska" }
       ],
-      "id": 17,
+      "id": 41,
       "categorySex": 1,
       "categoryClothes": 6,
       "sale": false,
@@ -325,7 +325,7 @@
       "images": [
         { "src": "/clothes/women/accessories/3/image1.png", "alc": "Widok z przodu" }
       ],
-      "id": 18,
+      "id": 42,
       "categorySex": 1,
       "categoryClothes": 6,
       "sale": true,
@@ -345,7 +345,7 @@
         { "src": "/clothes/women/sweaters/1/image1.png", "alc": "Widok z przodu" },
         { "src": "/clothes/women/sweaters/1/image2.png", "alc": "Z bliska" }
       ],
-      "id": 19,
+      "id": 43,
       "categorySex": 1,
       "categoryClothes": 7,
       "sale": false,
@@ -362,7 +362,7 @@
       "images": [
         { "src": "/clothes/women/sweaters/2/image1.png", "alc": "Detail dekoltu" }
       ],
-      "id": 20,
+      "id": 44,
       "categorySex": 1,
       "categoryClothes": 7,
       "sale": false,
@@ -379,7 +379,7 @@
       "images": [
         { "src": "/clothes/women/sweaters/3/image1.png", "alc": "Z przodu" }
       ],
-      "id": 21,
+      "id": 45,
       "categorySex": 1,
       "categoryClothes": 7,
       "sale": false,
@@ -398,7 +398,7 @@
       "images": [
         { "src": "/clothes/women/underwear/1/image1.png", "alc": "Widok z przodu" }
       ],
-      "id": 22,
+      "id": 46,
       "categorySex": 1,
       "categoryClothes": 8,
       "sale": false,
@@ -415,7 +415,7 @@
       "images": [
         { "src": "/clothes/women/underwear/2/image1.png", "alc": "Widok z przodu" }
       ],
-      "id": 23,
+      "id": 47,
       "categorySex": 1,
       "categoryClothes": 8,
       "sale": true,
@@ -432,7 +432,7 @@
       "images": [
         { "src": "/clothes/women/underwear/3/image1.png", "alc": "Z przodu" }
       ],
-      "id": 24,
+      "id": 48,
       "categorySex": 1,
       "categoryClothes": 8,
       "sale": false,

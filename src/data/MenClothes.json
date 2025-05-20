@@ -1,7 +1,7 @@
 {
   "1": [
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Koszula Męska Nova Classic",
       "price": 149.99,
       "isFavourite": false,
@@ -19,7 +19,7 @@
       "availableSize" : ["s","m","l","xl"]
     },
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Koszula Lniania Beżowa",
       "price": 179.50,
       "isFavourite": false,
@@ -37,7 +37,7 @@
       "availableSize" : ["s","xl"]
     },
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Koszula Oversize Granatowa",
       "price": 139.00,
       "isFavourite": false,
@@ -57,7 +57,7 @@
   ],
   "2": [
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Spodnie Chinos Piaskowe",
       "price": 159.99,
       "isFavourite": false,
@@ -75,7 +75,7 @@
       "availableSize" : ["m","xl"]
     },
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Spodnie lniane Nova",
       "price": 179.90,
       "isFavourite": false,
@@ -93,7 +93,7 @@
       "availableSize" : ["s","m","l","xl"]
     },
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Spodnie klasyczne czarne",
       "price": 199.00,
       "isFavourite": false,
@@ -113,7 +113,7 @@
   ],
   "3": [
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Kurtka Przejściowa Nova",
       "price": 289.99,
       "isFavourite": false,
@@ -131,7 +131,7 @@
       "availableSize" : ["s","m","l","xl"]
     },
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Kurtka Wełniana Krótka",
       "price": 359.00,
       "isFavourite": false,
@@ -149,7 +149,7 @@
       "availableSize" : ["s","m","l","xl"]
     },
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Parka z bawełny organicznej",
       "price": 399.99,
       "isFavourite": false,
@@ -169,7 +169,7 @@
   ],
   "4": [
     {
-      "sex": "man",
+      "sex": "men",
       "name": "T-shirt Basic Biały",
       "price": 89.99,
       "isFavourite": false,
@@ -187,7 +187,7 @@
       "availableSize" : ["s","m","l","xl"]
     },
     {
-      "sex": "man",
+      "sex": "men",
       "name": "T-shirt Nova Logo",
       "price": 99.90,
       "isFavourite": false,
@@ -205,7 +205,7 @@
       "availableSize" : ["s","m","l","xl"]
     },
     {
-      "sex": "man",
+      "sex": "men",
       "name": "T-shirt Beżowy Oversize",
       "price": 109.00,
       "isFavourite": false,
@@ -225,7 +225,7 @@
   ],
   "5": [
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Buty Nova Classic",
       "price": 329.00,
       "isFavourite": false,
@@ -243,7 +243,7 @@
       "availableSize" : ["s","m","l","xl"]
     },
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Sneakersy Nova Street",
       "price": 289.90,
       "isFavourite": false,
@@ -261,7 +261,7 @@
       "availableSize" : ["s","m","l","xl"]
     },
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Trampki Canvas",
       "price": 199.00,
       "isFavourite": false,
@@ -281,7 +281,7 @@
   ],
   "6": [
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Pasek Skórzany Nova",
       "price": 129.00,
       "isFavourite": false,
@@ -298,7 +298,7 @@
       "availableSize" : ["s","m","l","xl"]
     },
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Torba Na Ramię Nova",
       "price": 179.99,
       "isFavourite": false,
@@ -315,7 +315,7 @@
       "availableSize" : ["s","m","l","xl"]
     },
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Czapka Beanie Nova",
       "price": 79.00,
       "isFavourite": false,
@@ -334,7 +334,7 @@
   ],
   "7": [
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Sweter Klasyczny Beżowy",
       "price": 199.00,
       "isFavourite": false,
@@ -352,7 +352,7 @@
       "availableSize" : ["s","m","l","xl"]
     },
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Sweter Oversize Nova",
       "price": 219.99,
       "isFavourite": false,
@@ -370,7 +370,7 @@
       "availableSize" : ["s","m","l","xl"]
     },
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Sweter z Golfem Piaskowy",
       "price": 239.00,
       "isFavourite": false,
@@ -390,7 +390,7 @@
   ],
   "8": [
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Bokserki Nova Basic",
       "price": 59.00,
       "isFavourite": false,
@@ -407,7 +407,7 @@
       "availableSize" : ["s","m","l","xl"]
     },
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Majtki Bawełniane Nova",
       "price": 49.90,
       "isFavourite": false,
@@ -424,7 +424,7 @@
       "availableSize" : ["s","m","l","xl"]
     },
     {
-      "sex": "man",
+      "sex": "men",
       "name": "Zestaw 3x Skarpetki Nova",
       "price": 39.99,
       "isFavourite": false,

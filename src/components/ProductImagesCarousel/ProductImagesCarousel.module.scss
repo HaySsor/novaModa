@@ -1,0 +1,50 @@
+.carouselBox{
+  position: relative;
+  border: 7px solid var(--primary-color);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.imagesBox {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  /* ukrycie paska przewijania: */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  gap: 8px;
+}
+.imagesBox::-webkit-scrollbar {
+  width: 0; height: 0;
+}
+.image {
+  min-width: 100%;
+  height: auto;
+  object-fit: cover;
+  scroll-snap-align: start;
+}
+.dotsBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.49);
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  background: var(--secondary-color);
+  border-radius: 50%;
+  margin: 0 4px;
+  transition: background 0.2s;
+}
+.dotActive {
+  background: #333;
+}
