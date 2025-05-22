@@ -9,8 +9,8 @@
       "mainImageAlt": "Klasyczna koszula męska z długim rękawem",
       "description": "Elegancka, ręcznie szyta koszula wykonana z naturalnej bawełny.",
       "images": [
-        { "src": "/clothes/men/shirt/1/image1.png", "alc": "Widok z przodu" },
-        { "src": "/clothes/men/shirt/1/image2.png", "alc": "Widok z tyłu" }
+        { "src": "/clothes/men/shirt/1/image1.png", "alt": "Widok z przodu" },
+        { "src": "/clothes/men/shirt/1/image2.png", "alt": "Widok z tyłu" }
       ],
       "id" : 1,
       "categorySex": 2,
@@ -27,8 +27,8 @@
       "mainImageAlt": "Lniana koszula męska",
       "description": "Oddychająca koszula z lnu idealna na lato.",
       "images": [
-        { "src": "/clothes/men/shirt/2/image1.png", "alc": "Widok z przodu" },
-        { "src": "/clothes/men/shirt/2/image2.png", "alc": "Widok z tyłu" }
+        { "src": "/clothes/men/shirt/2/image1.png", "alt": "Widok z przodu" },
+        { "src": "/clothes/men/shirt/2/image2.png", "alt": "Widok z tyłu" }
       ],
       "id" : 2,
       "categorySex": 2,
@@ -45,8 +45,8 @@
       "mainImageAlt": "Koszula oversize",
       "description": "Nowoczesny krój oversize z miękkiego materiału.",
       "images": [
-        { "src": "/clothes/men/shirt/3/image1.png", "alc": "Widok z przodu" },
-        { "src": "/clothes/men/shirt/3/image2.png", "alc": "Widok z tyłu" }
+        { "src": "/clothes/men/shirt/3/image1.png", "alt": "Widok z przodu" },
+        { "src": "/clothes/men/shirt/3/image2.png", "alt": "Widok z tyłu" }
       ],
       "id" : 3,
       "categorySex": 2,
@@ -65,8 +65,8 @@
       "mainImageAlt": "Spodnie męskie chinos",
       "description": "Wygodne spodnie z elastycznej bawełny z polskiej szwalni.",
       "images": [
-        { "src": "/clothes/men/pants/1/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/men/pants/1/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/men/pants/1/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/men/pants/1/image2.png", "alt": "Z tyłu" }
       ],
       "id" : 4,
       "categorySex": 2,
@@ -83,8 +83,8 @@
       "mainImageAlt": "Lniane spodnie",
       "description": "Lniane spodnie z prostą nogawką i sznurkiem w pasie.",
       "images": [
-        { "src": "/clothes/men/pants/2/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/men/pants/2/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/men/pants/2/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/men/pants/2/image2.png", "alt": "Z tyłu" }
       ],
       "id" : 5,
       "categorySex": 2,
@@ -101,8 +101,8 @@
       "mainImageAlt": "Spodnie klasyczne",
       "description": "Klasyczny krój idealny do pracy lub na eleganckie wyjścia.",
       "images": [
-        { "src": "/clothes/men/pants/3/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/men/pants/3/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/men/pants/3/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/men/pants/3/image2.png", "alt": "Z tyłu" }
       ],
       "id" : 6,
       "categorySex": 2,
@@ -121,8 +121,8 @@
       "mainImageAlt": "Kurtka przejściowa męska",
       "description": "Lekka, odporna na wiatr kurtka idealna na wiosnę.",
       "images": [
-        { "src": "/clothes/men/jacket/1/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/men/jacket/1/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/men/jacket/1/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/men/jacket/1/image2.png", "alt": "Z tyłu" }
       ],
       "id" : 7,
       "categorySex": 2,
@@ -139,8 +139,8 @@
       "mainImageAlt": "Kurtka z wełny",
       "description": "Stylowa i ciepła kurtka z mieszanki wełny, szyta lokalnie.",
       "images": [
-        { "src": "/clothes/men/jacket/2/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/men/jacket/2/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/men/jacket/2/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/men/jacket/2/image2.png", "alt": "Z tyłu" }
       ],
       "id" : 8,
       "categorySex": 2,
@@ -157,8 +157,8 @@
       "mainImageAlt": "Parka",
       "description": "Wytrzymała parka z organicznej bawełny z dużym kapturem.",
       "images": [
-        { "src": "/clothes/men/jacket/3/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/men/jacket/3/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/men/jacket/3/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/men/jacket/3/image2.png", "alt": "Z tyłu" }
       ],
       "id" : 9,
       "categorySex": 2,
@@ -177,8 +177,8 @@
       "mainImageAlt": "Biały t-shirt męski",
       "description": "Gładki biały T-shirt z organicznej bawełny.",
       "images": [
-        { "src": "/clothes/men/t-shirt/1/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/men/t-shirt/1/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/men/t-shirt/1/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/men/t-shirt/1/image2.png", "alt": "Z tyłu" }
       ],
       "id" : 10,
       "categorySex": 2,
@@ -195,8 +195,8 @@
       "mainImageAlt": "T-shirt z logo",
       "description": "Minimalistyczny T-shirt z subtelnym logo Nova Moda.",
       "images": [
-        { "src": "/clothes/men/t-shirt/2/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/men/t-shirt/2/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/men/t-shirt/2/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/men/t-shirt/2/image2.png", "alt": "Z tyłu" }
       ],
       "id" : 11,
       "categorySex": 2,
@@ -213,8 +213,8 @@
       "mainImageAlt": "Oversize t-shirt",
       "description": "Luźny T-shirt w kolorze piaskowym z szerokim rękawem.",
       "images": [
-        { "src": "/clothes/men/t-shirt/3/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/men/t-shirt/3/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/men/t-shirt/3/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/men/t-shirt/3/image2.png", "alt": "Z tyłu" }
       ],
       "id" : 12,
       "categorySex": 2,
@@ -233,14 +233,13 @@
       "mainImageAlt": "Klasyczne buty męskie",
       "description": "Skórzane buty ręcznie wykańczane, idealne do casualowych stylizacji.",
       "images": [
-        { "src": "/clothes/men/shoes/1/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/men/shoes/1/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/men/shoes/1/image1.png", "alt": "Z przodu" }
       ],
       "id" : 13,
       "categorySex": 2,
       "categoryClothes" : 5,
       "sale": false,
-      "availableSize" : ["s","m","l","xl"]
+      "availableSize" : ["40","41","42","43","44"]
     },
     {
       "sex": "men",
@@ -251,14 +250,13 @@
       "mainImageAlt": "Sneakersy męskie",
       "description": "Stylowe sneakersy z grubą podeszwą i minimalistycznym logo.",
       "images": [
-        { "src": "/clothes/men/shoes/2/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/men/shoes/2/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/men/shoes/2/image1.png", "alt": "Z przodu" }
       ],
       "id" : 14,
       "categorySex": 2,
       "categoryClothes" : 5,
       "sale": false,
-      "availableSize" : ["s","m","l","xl"]
+      "availableSize" : ["40","41","42","43","44"]
     },
     {
       "sex": "men",
@@ -269,14 +267,13 @@
       "mainImageAlt": "Trampki z płótna",
       "description": "Wygodne i lekkie trampki z przewiewnego materiału w stylu retro.",
       "images": [
-        { "src": "/clothes/men/shoes/3/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/men/shoes/3/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/men/shoes/3/image1.png", "alt": "Z przodu" }
       ],
       "id" : 15,
       "categorySex": 2,
       "categoryClothes" : 5,
       "sale": false,
-      "availableSize" : ["s","m","l","xl"]
+      "availableSize" : ["40","41","42","43","44"]
     }
   ],
   "6": [
@@ -289,7 +286,7 @@
       "mainImageAlt": "Skórzany pasek",
       "description": "Elegancki pasek z prawdziwej skóry z matową sprzączką.",
       "images": [
-        { "src": "/clothes/men/accessories/1/image1.png", "alc": "Z przodu" }
+        { "src": "/clothes/men/accessories/1/image1.png", "alt": "Z przodu" }
       ],
       "id" : 16,
       "categorySex": 2,
@@ -306,7 +303,7 @@
       "mainImageAlt": "Torba męska",
       "description": "Torba typu messenger z bawełny z dodatkami skóry.",
       "images": [
-        { "src": "/clothes/men/accessories/2/image1.png", "alc": "Z przodu" }
+        { "src": "/clothes/men/accessories/2/image1.png", "alt": "Z przodu" }
       ],
       "id" : 17,
       "categorySex": 2,
@@ -323,7 +320,7 @@
       "mainImageAlt": "Czapka męska",
       "description": "Miękka dzianinowa czapka w kolorze piaskowym.",
       "images": [
-        { "src": "/clothes/men/accessories/3/image1.png", "alc": "Z przodu" }
+        { "src": "/clothes/men/accessories/3/image1.png", "alt": "Z przodu" }
       ],
       "id" : 18,
       "categorySex": 2,
@@ -342,8 +339,8 @@
       "mainImageAlt": "Sweter klasyczny",
       "description": "Ciepły sweter o klasycznym kroju z miękkiej wełny merynosa.",
       "images": [
-        { "src": "/clothes/men/sweaters/1/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/men/sweaters/1/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/men/sweaters/1/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/men/sweaters/1/image2.png", "alt": "Z tyłu" }
       ],
       "id" : 19,
       "categorySex": 2,
@@ -360,8 +357,8 @@
       "mainImageAlt": "Oversize sweter",
       "description": "Luźny sweter w minimalistycznym stylu, idealny na co dzień.",
       "images": [
-        { "src": "/clothes/men/sweaters/2/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/men/sweaters/2/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/men/sweaters/2/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/men/sweaters/2/image2.png", "alt": "Z tyłu" }
       ],
       "id" : 20,
       "categorySex": 2,
@@ -378,8 +375,8 @@
       "mainImageAlt": "Sweter z golfem",
       "description": "Wysoki kołnierz i dopasowany krój z mieszanki wełny i bawełny.",
       "images": [
-        { "src": "/clothes/men/sweaters/3/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/men/sweaters/3/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/men/sweaters/3/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/men/sweaters/3/image2.png", "alt": "Z tyłu" }
       ],
       "id" : 21,
       "categorySex": 2,
@@ -398,7 +395,7 @@
       "mainImageAlt": "Bokserki męskie",
       "description": "Komfortowe bokserki z elastycznej bawełny w neutralnym kolorze.",
       "images": [
-        { "src": "/clothes/men/underwear/1/image1.png", "alc": "Złożone" }
+        { "src": "/clothes/men/underwear/1/image1.png", "alt": "Złożone" }
       ],
       "id" : 22,
       "categorySex": 2,
@@ -415,7 +412,7 @@
       "mainImageAlt": "Majtki męskie",
       "description": "Delikatne i przewiewne majtki męskie z polskiej bawełny.",
       "images": [
-        { "src": "/clothes/men/underwear/2/image1.png", "alc": "Z przodu" }
+        { "src": "/clothes/men/underwear/2/image1.png", "alt": "Z przodu" }
       ],
       "id" : 23,
       "categorySex": 2,
@@ -432,7 +429,7 @@
       "mainImageAlt": "Zestaw skarpetek",
       "description": "Zestaw trzech par skarpet w neutralnych odcieniach beżu i bieli.",
       "images": [
-        { "src": "/clothes/men/underwear/3/image1.png", "alc": "Złożone" }
+        { "src": "/clothes/men/underwear/3/image1.png", "alt": "Złożone" }
       ],
       "id" : 24,
       "categorySex": 2,

@@ -3,6 +3,7 @@ import { Lato } from "next/font/google";
 import "./globals.css";
 import {Header} from "@/components/Header/Header";
 import {Footer} from "@/components/Footer/Footer";
+import {CartContextProvider} from "@/context/CartContext";
 
 const LatoSans = Lato({
     weight: ['300', '400', '700'],
@@ -21,9 +22,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={LatoSans.className}>
-        <Header/>
-        {children}
-        {/*<Footer/>*/}
+      <CartContextProvider>
+          <>
+              <Header/>
+              {children}
+              {/*<Footer/>*/}
+          </>
+      </CartContextProvider>
       </body>
     </html>
   );

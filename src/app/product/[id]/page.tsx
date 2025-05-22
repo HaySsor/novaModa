@@ -17,10 +17,10 @@ export default function ProductPage() {
     const [error, setError] = useState<string | null>(null)
     const [productCategory, setProductCategory] = useState<string | null>(null)
     const [selectSize, setSelectSize] = useState<string>('')
+    const [noSizeError, setNoSizeError] = useState<boolean>(false)
 
     useEffect(() => {
         if (!id) return
-
         fetch(`/api/product/${id}`)
             .then(res => {
                 if (!res.ok) throw new Error(`Status ${res.status}`)
@@ -37,15 +37,22 @@ export default function ProductPage() {
     }, [id])
 
     const handleAddToCart = () => {
-
+        if(!selectSize){
+            setNoSizeError(true)
+            return
+        }
     }
 
-    const handleSizeChange = () =>{
-
+    const handleSizeChange = (size : string) =>{
+        setSelectSize(size)
+        setNoSizeError(false)
     }
 
     const handleAddToFavorite = () => {
-
+        if(!selectSize){
+            setNoSizeError(true)
+            return
+        }
     }
 
     return (
@@ -64,26 +71,37 @@ export default function ProductPage() {
                         <div className={styles.priceBox}>
                             <span> <span className={styles.price}>{product.price}</span> PLN </span>
                         </div>
-
-                        <div className={styles.sizeContainer}>
-                            <span> Wybierz rozmiar: </span>
-                            <div className={styles.sizeBox}>
-                                {product.availableSize.map(size => {
-                                    return (
-                                        <div
-                                            onClick={() => handleSizeChange()}
-                                            className={`${styles.sizeItem} ${size === selectSize ? styles.activeSizeItem : ''}`}
-                                            key={size}>
-                                            {size}
-                                        </div>
-                                    )
-                                })}
+                        <div className={styles.productMiddleBottom}>
+                            <div className={`${styles.sizeContainer} ${noSizeError ? styles.noSizeSelect : ''}`}>
+                                {noSizeError && <span className={styles.sizeError}> Najpierw wybierz rozmiar </span>}
+                                <span> Wybierz rozmiar: </span>
+                                <div className={styles.sizeBox}>
+                                    {product.availableSize.map(size => {
+                                        return (
+                                            <div
+                                                onClick={() => handleSizeChange(size)}
+                                                className={`${styles.sizeItem} ${size === selectSize ? styles.activeSizeItem : ''}`}
+                                                key={size}>
+                                                {size}
+                                            </div>
+                                        )
+                                    })}
+                                </div>
+                            </div>
+                            <div className={styles.buttonsBox}>
+                                <Button
+                                    onClick={handleAddToFavorite}
+                                    isFull={true}
+                                    text={'Dodaj do ulubionych'}
+                                    icon={'heart'}/>
+                                <Button
+                                    onClick={handleAddToCart}
+                                    isFull={true}
+                                    text={'Dodaj do koszyka'}
+                                    icon={'plus'}/>
                             </div>
                         </div>
-                        <div className={styles.buttonsBox}>
-                            <Button onClick={handleAddToCart} isFull={true} text={'Dodaj do koszyka'} icon={'plus'} isDisabled={false} />
-                            <Button onClick={handleAddToFavorite} isFull={true} text={'Dodaj do ulubionych'} icon={'heart'} isDisabled={false} />
-                        </div>
+
                     </div>
                 </div>
             </div>

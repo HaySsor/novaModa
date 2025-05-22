@@ -19,7 +19,7 @@ export const BestsellersData : ElementType[] = [
         ]
     },
     {
-        id : 2,
+        id : 6,
         categorySex: 2,
         categoryClothes : 1,
         name : 'Spodnie Męskie Nova',
@@ -36,7 +36,7 @@ export const BestsellersData : ElementType[] = [
         ]
     },
     {
-        id : 3,
+        id : 15,
         categorySex: 2,
         categoryClothes : 3,
         name : 'Trampki Męskie Nova',
@@ -54,21 +54,22 @@ export const BestsellersData : ElementType[] = [
     },
 
     {
-        id : 4,
-        categorySex: 1,
-        categoryClothes : 3,
-        name : 'Trampki Damsie Nova',
-        sex : 'woman',
-        price: 220,
-        sale: false,
+        sex: "woman",
+        name: "Szpilki Klasyczne",
+        price: 299.99,
         isFavourite: false,
-        mainImage: '/clothes/shoes.png',
-        availableSize : ['40','41','42','43','44'],
-        mainImageAlt: "tu",
-        description: "testowy opis testowy opis testowy opis testowy opis testowy opis testowy opis testowy opis testowy opis",
-        images:[
-            {src: '/clothes/shoes.png', alt: 'tu' }
-        ]
+        mainImage: "/clothes/women/shoes/1/image1.png",
+        mainImageAlt: "Klasyczne szpilki",
+        description: "Eleganckie szpilki o ponadczasowym kroju.",
+        images: [
+            { "src": "/clothes/women/shoes/1/image1.png", "alt": "Z przodu" },
+            { "src": "/clothes/women/shoes/1/image2.png", "alt": "Z boku" }
+        ],
+        id: 37,
+        categorySex: 1,
+        categoryClothes: 5,
+        sale: false,
+        availableSize: ["36", "37", "38", "39"]
     },
 
 

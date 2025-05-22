@@ -9,8 +9,8 @@
       "mainImageAlt": "Letnia sukienka w kwiatowy wzór",
       "description": "Lekka, zwiewna sukienka uszyta z bawełnianej tkaniny z motywem drobnych kwiatów.",
       "images": [
-        { "src": "/clothes/women/dress/1/image1.png", "alc": "Widok z przodu" },
-        { "src": "/clothes/women/dress/1/image2.png", "alc": "Widok z tyłu" }
+        { "src": "/clothes/women/dress/1/image1.png", "alt": "Widok z przodu" },
+        { "src": "/clothes/women/dress/1/image2.png", "alt": "Widok z tyłu" }
       ],
       "id": 25,
       "categorySex": 1,
@@ -27,8 +27,8 @@
       "mainImageAlt": "Elegancka czarna sukienka koktajlowa",
       "description": "Klasyczna mała czarna, idealna na wieczorne wyjścia.",
       "images": [
-        { "src": "/clothes/women/dress/2/image1.png", "alc": "Na modelce przodem" },
-        { "src": "/clothes/women/dress/2/image2.png", "alc": "Detail koronki" }
+        { "src": "/clothes/women/dress/2/image1.png", "alt": "Na modelce przodem" },
+        { "src": "/clothes/women/dress/2/image2.png", "alt": "Detail koronki" }
       ],
       "id": 26,
       "categorySex": 1,
@@ -45,8 +45,8 @@
       "mainImageAlt": "Długa sukienka w stylu boho",
       "description": "Sukienka maxi z etnicznym wzorem, idealna na letnie festiwale.",
       "images": [
-        { "src": "/clothes/women/dress/3/image1.png", "alc": "Widok z boku" },
-        { "src": "/clothes/women/dress/3/image2.png", "alc": "Detail falbany" }
+        { "src": "/clothes/women/dress/3/image1.png", "alt": "Widok z boku" },
+        { "src": "/clothes/women/dress/3/image2.png", "alt": "Detail falbany" }
       ],
       "id": 27,
       "categorySex": 1,
@@ -65,8 +65,8 @@
       "mainImageAlt": "Klasyczne jeansowe spodnie damskie",
       "description": "Wygodne jeansy o prostym kroju z delikatnym streczem.",
       "images": [
-        { "src": "/clothes/women/pants/1/image1.png", "alc": "Widok z przodu" },
-        { "src": "/clothes/women/pants/1/image2.png", "alc": "Widok z tyłu" }
+        { "src": "/clothes/women/pants/1/image1.png", "alt": "Widok z przodu" },
+        { "src": "/clothes/women/pants/1/image2.png", "alt": "Widok z tyłu" }
       ],
       "id": 28,
       "categorySex": 1,
@@ -83,8 +83,8 @@
       "mainImageAlt": "Eleganckie spodnie materiałowe",
       "description": "Spodnie uszyte z lekkiego materiału, idealne do biura.",
       "images": [
-        { "src": "/clothes/women/pants/2/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/women/pants/2/image2.png", "alc": "Z boku" }
+        { "src": "/clothes/women/pants/2/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/women/pants/2/image2.png", "alt": "Z boku" }
       ],
       "id": 29,
       "categorySex": 1,
@@ -101,8 +101,8 @@
       "mainImageAlt": "Spodnie cargo w stylu oversize",
       "description": "Luźne spodnie cargo z wieloma kieszeniami.",
       "images": [
-        { "src": "/clothes/women/pants/3/image1.png", "alc": "Widok z przodu" },
-        { "src": "/clothes/women/pants/3/image2.png", "alc": "Widok z tyłu" }
+        { "src": "/clothes/women/pants/3/image1.png", "alt": "Widok z przodu" },
+        { "src": "/clothes/women/pants/3/image2.png", "alt": "Widok z tyłu" }
       ],
       "id": 30,
       "categorySex": 1,
@@ -121,8 +121,8 @@
       "mainImageAlt": "Klasyczna marynarka damska",
       "description": "Elegancka marynarka o dopasowanym kroju.",
       "images": [
-        { "src": "/clothes/women/jacket/1/image1.png", "alc": "Zapieta marynarka" },
-        { "src": "/clothes/women/jacket/1/image2.png", "alc": "Rozpięta marynarka" }
+        { "src": "/clothes/women/jacket/1/image1.png", "alt": "Zapieta marynarka" },
+        { "src": "/clothes/women/jacket/1/image2.png", "alt": "Rozpięta marynarka" }
       ],
       "id": 31,
       "categorySex": 1,
@@ -139,8 +139,8 @@
       "mainImageAlt": "Długi płaszcz wełniany",
       "description": "Ciepły płaszcz z wysokiej jakości wełny.",
       "images": [
-        { "src": "/clothes/women/jacket/2/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/women/jacket/2/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/women/jacket/2/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/women/jacket/2/image2.png", "alt": "Z tyłu" }
       ],
       "id": 32,
       "categorySex": 1,
@@ -157,8 +157,8 @@
       "mainImageAlt": "Skórzana kurtka ramoneska",
       "description": "Stylowa kurtka z naturalnej skóry.",
       "images": [
-        { "src": "/clothes/women/jacket/3/image1.png", "alc": "Przód kurtki" },
-        { "src": "/clothes/women/jacket/3/image2.png", "alc": "Tył kurtki" }
+        { "src": "/clothes/women/jacket/3/image1.png", "alt": "Przód kurtki" },
+        { "src": "/clothes/women/jacket/3/image2.png", "alt": "Tył kurtki" }
       ],
       "id":33,
       "categorySex": 1,
@@ -177,8 +177,8 @@
       "mainImageAlt": "Koronkowy top damski",
       "description": "Delikatny top zdobiony koronką.",
       "images": [
-        { "src": "/clothes/women/top/1/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/women/top/1/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/women/top/1/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/women/top/1/image2.png", "alt": "Z tyłu" }
       ],
       "id": 34,
       "categorySex": 1,
@@ -195,8 +195,8 @@
       "mainImageAlt": "Bluzka z bufkami",
       "description": "Elegancka bluzka z bufkowymi rękawami.",
       "images": [
-        { "src": "/clothes/women/top/2/image1.png", "alc": "Na modelce przodem" },
-        { "src": "/clothes/women/top/2/image2.png", "alc": "Detail rękawa" }
+        { "src": "/clothes/women/top/2/image1.png", "alt": "Na modelce przodem" },
+        { "src": "/clothes/women/top/2/image2.png", "alt": "Detail rękawa" }
       ],
       "id": 35,
       "categorySex": 1,
@@ -213,8 +213,8 @@
       "mainImageAlt": "Crop top bawełniany",
       "description": "Krótki top z miękkiej bawełny.",
       "images": [
-        { "src": "/clothes/women/top/3/image1.png", "alc": "Widok z przodu" },
-        { "src": "/clothes/women/top/3/image2.png", "alc": "Widok z profilu" }
+        { "src": "/clothes/women/top/3/image1.png", "alt": "Widok z przodu" },
+        { "src": "/clothes/women/top/3/image2.png", "alt": "Widok z profilu" }
       ],
       "id": 36,
       "categorySex": 1,
@@ -233,8 +233,8 @@
       "mainImageAlt": "Klasyczne szpilki",
       "description": "Eleganckie szpilki o ponadczasowym kroju.",
       "images": [
-        { "src": "/clothes/women/shoes/1/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/women/shoes/1/image2.png", "alc": "Z boku" }
+        { "src": "/clothes/women/shoes/1/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/women/shoes/1/image2.png", "alt": "Z boku" }
       ],
       "id": 37,
       "categorySex": 1,
@@ -251,8 +251,8 @@
       "mainImageAlt": "Eleganckie baleriny",
       "description": "Komfortowe baleriny z ozdobną kokardą.",
       "images": [
-        { "src": "/clothes/women/shoes/2/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/women/shoes/2/image2.png", "alc": "Z boku" }
+        { "src": "/clothes/women/shoes/2/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/women/shoes/2/image2.png", "alt": "Z boku" }
       ],
       "id": 38,
       "categorySex": 1,
@@ -269,8 +269,8 @@
       "mainImageAlt": "Sandały na słupku",
       "description": "Sandały z regulowanym paskiem na słupkowym obcasie.",
       "images": [
-        { "src": "/clothes/women/shoes/3/image1.png", "alc": "Z przodu" },
-        { "src": "/clothes/women/shoes/3/image2.png", "alc": "Z tyłu" }
+        { "src": "/clothes/women/shoes/3/image1.png", "alt": "Z przodu" },
+        { "src": "/clothes/women/shoes/3/image2.png", "alt": "Z tyłu" }
       ],
       "id": 39,
       "categorySex": 1,
@@ -289,7 +289,7 @@
       "mainImageAlt": "Skórzana torebka damska",
       "description": "Elegancka torebka z naturalnej skóry.",
       "images": [
-        { "src": "/clothes/women/accessories/1/image1.png", "alc": "Widok z przodu" }
+        { "src": "/clothes/women/accessories/1/image1.png", "alt": "Widok z przodu" }
       ],
       "id": 40,
       "categorySex": 1,
@@ -306,7 +306,7 @@
       "mainImageAlt": "Złote kolczyki wiszące",
       "description": "Delikatne kolczyki wykonane ze złoconego mosiądzu.",
       "images": [
-        { "src": "/clothes/women/accessories/2/image1.png", "alc": "Z bliska" }
+        { "src": "/clothes/women/accessories/2/image1.png", "alt": "Z bliska" }
       ],
       "id": 41,
       "categorySex": 1,
@@ -323,7 +323,7 @@
       "mainImageAlt": "Naszyjnik z pereł",
       "description": "Klasyczny naszyjnik z naturalnych pereł.",
       "images": [
-        { "src": "/clothes/women/accessories/3/image1.png", "alc": "Widok z przodu" }
+        { "src": "/clothes/women/accessories/3/image1.png", "alt": "Widok z przodu" }
       ],
       "id": 42,
       "categorySex": 1,
@@ -342,8 +342,8 @@
       "mainImageAlt": "Oversize sweter damski",
       "description": "Miękki sweter o luźnym kroju, idealny na chłodniejsze dni.",
       "images": [
-        { "src": "/clothes/women/sweaters/1/image1.png", "alc": "Widok z przodu" },
-        { "src": "/clothes/women/sweaters/1/image2.png", "alc": "Z bliska" }
+        { "src": "/clothes/women/sweaters/1/image1.png", "alt": "Widok z przodu" },
+        { "src": "/clothes/women/sweaters/1/image2.png", "alt": "Z bliska" }
       ],
       "id": 43,
       "categorySex": 1,
@@ -360,7 +360,7 @@
       "mainImageAlt": "Golf damski",
       "description": "Ciepły golf z wysoką stójką.",
       "images": [
-        { "src": "/clothes/women/sweaters/2/image1.png", "alc": "Detail dekoltu" }
+        { "src": "/clothes/women/sweaters/2/image1.png", "alt": "Detail dekoltu" }
       ],
       "id": 44,
       "categorySex": 1,
@@ -377,7 +377,7 @@
       "mainImageAlt": "Długi kardigan",
       "description": "Rozpinany kardigan wykonany z miękkiej dzianiny.",
       "images": [
-        { "src": "/clothes/women/sweaters/3/image1.png", "alc": "Z przodu" }
+        { "src": "/clothes/women/sweaters/3/image1.png", "alt": "Z przodu" }
       ],
       "id": 45,
       "categorySex": 1,
@@ -396,7 +396,7 @@
       "mainImageAlt": "Koronkowy biustonosz",
       "description": "Biustonosz uszyty z delikatnej koronki.",
       "images": [
-        { "src": "/clothes/women/underwear/1/image1.png", "alc": "Widok z przodu" }
+        { "src": "/clothes/women/underwear/1/image1.png", "alt": "Widok z przodu" }
       ],
       "id": 46,
       "categorySex": 1,
@@ -413,7 +413,7 @@
       "mainImageAlt": "Majtki bikini damskie",
       "description": "Komfortowe majtki w stylu bikini.",
       "images": [
-        { "src": "/clothes/women/underwear/2/image1.png", "alc": "Widok z przodu" }
+        { "src": "/clothes/women/underwear/2/image1.png", "alt": "Widok z przodu" }
       ],
       "id": 47,
       "categorySex": 1,
@@ -430,7 +430,7 @@
       "mainImageAlt": "Transparentne rajstopy",
       "description": "Cienkie rajstopy w kolorze nude.",
       "images": [
-        { "src": "/clothes/women/underwear/3/image1.png", "alc": "Z przodu" }
+        { "src": "/clothes/women/underwear/3/image1.png", "alt": "Z przodu" }
       ],
       "id": 48,
       "categorySex": 1,
