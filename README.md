@@ -6,6 +6,18 @@ Nova Moda to przykładowy sklep internetowy z odzieżą i dodatkami, zbudowany w
 
 ---
 
+## Rzeczy do zrobienia
+ - Strona Ulubione produkty
+ - Footer
+ - Przeniesienie Bestsellers do API
+ - dorobienie zdjec do Damskich produktow
+ - stworznie Formularza do reklamacji
+ - dodanie loaderów do zdjec i czasu wczytania
+ - usprawnienia wizualne
+ - podpiecie filtrów do wyszkuwania
+
+---
+
 ## Spis treści
 
 1. [Opis projektu](#opis-projektu)  
