@@ -1,7 +1,7 @@
 import styles from './FiltersMobile.module.scss'
 import {Button} from "@/components/Button/Button";
 import {useEffect, useState} from "react";
-import {Modal} from "@/components/Modal/Moda";
+import {Modal} from "@/components/Modal/Modal";
 import {FilterBody} from "@/components/FilterBody/FilterBody";
 
 export const FiltersMobile = () => {
