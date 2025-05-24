@@ -9,8 +9,8 @@ const WOMAN_DATA = womanData as unknown as ClothesPage
 
 interface Params { params: { id: string } }
 
-export async function GET(_: Request, { params }: Params) {
-    const id = Number(params.id)
+export async function GET(_: Request, context:any ) {
+    const id = Number(context.params.id)
 
     // spłaszcz wszystkie kategorie mężczyzn i kobiet
     const allMen   = Object.values(MEN_DATA).flat()
