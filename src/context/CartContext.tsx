@@ -7,7 +7,6 @@ import type { CartItem }     from '@/Types/CartItem'
 export interface CartContextValue {
     cart: CartItem[]
     addItem: (product: ElementType, size: string) => Promise<void>
-    removeOne: (productId: number, size: string) => Promise<void>
     removeAll: (productId: number, size: string) => Promise<void>
     setQuantity: (productId: number, size: string, quantity: number) => Promise<void>
     changeSize: (productId: number, oldSize: string, newSize: string) => Promise<void>
@@ -17,7 +16,6 @@ export interface CartContextValue {
 export const CartContext = createContext<CartContextValue>({
     cart: [],
     addItem: async () => {},
-    removeOne: async () => {},
     removeAll: async () => {},
     setQuantity: async () => {},
     changeSize: async () => {},
@@ -38,15 +36,6 @@ export const CartContextProvider = ({ children }: { children: ReactElement | Rea
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ product, size }),
-        })
-        await syncCart()
-    }
-
-    const removeOne = async (productId: number, size: string) => {
-        await fetch('/api/cart', {
-            method: 'DELETE',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ id: productId, size }),
         })
         await syncCart()
     }
@@ -83,7 +72,7 @@ export const CartContextProvider = ({ children }: { children: ReactElement | Rea
     }, [])
 
     return (
-        <CartContext.Provider value={{ cart, addItem, removeOne, removeAll, setQuantity, changeSize, syncCart }}>
+        <CartContext.Provider value={{ cart, addItem, removeAll, setQuantity, changeSize, syncCart }}>
             {children}
         </CartContext.Provider>
     )

@@ -6,7 +6,7 @@ export const BestsellersData : ElementType[] = [
         categorySex: 2,
         categoryClothes : 1,
         name : 'Koszula Męska Nova',
-        sex : 'man',
+        sex : 'men',
         price: 120.99,
         sale: false,
         isFavourite: false,
@@ -19,28 +19,28 @@ export const BestsellersData : ElementType[] = [
         ]
     },
     {
-        id : 6,
+        sex: "men",
+        name: "Czapka Beanie Nova",
+        price: 79.00,
+        isFavourite: false,
+        mainImage:  "/clothes/men/accessories/3/image1.png",
+        mainImageAlt: "Czapka męska",
+        description: "Miękka dzianinowa czapka w kolorze piaskowym.",
+        images: [
+            { "src": "/clothes/men/accessories/3/image1.png", "alt": "Z przodu" }
+        ],
+        id : 18,
         categorySex: 2,
-        categoryClothes : 1,
-        name : 'Spodnie Męskie Nova',
-        isFavourite : false,
-        sex : 'man',
-        price: 180,
+        categoryClothes : 6,
         sale: false,
-        mainImage: '/clothes/pants.png',
-        availableSize : ['s','m','l','xl'],
-        mainImageAlt: "tu",
-        description: "testowy opis testowy opis testowy opis testowy opis testowy opis testowy opis testowy opis testowy opis",
-        images:[
-            {src: '/clothes/pants.png', alt: 'tu' }
-        ]
+        availableSize : ["s","m","l","xl"]
     },
     {
         id : 15,
         categorySex: 2,
         categoryClothes : 3,
         name : 'Trampki Męskie Nova',
-        sex : 'man',
+        sex : 'men',
         price: 220,
         sale: false,
         isFavourite: false,
@@ -55,22 +55,22 @@ export const BestsellersData : ElementType[] = [
 
     {
         sex: "woman",
-        name: "Szpilki Klasyczne",
-        price: 299.99,
+        name: "Sukienka Letnia Kwiatowa",
+        price: 169.99,
         isFavourite: false,
-        mainImage: "/clothes/women/shoes/1/image1.png",
-        mainImageAlt: "Klasyczne szpilki",
-        description: "Eleganckie szpilki o ponadczasowym kroju.",
+        mainImage: "/clothes/women/dress/1/image1.png",
+        mainImageAlt: "Letnia sukienka w kwiatowy wzór",
+        description: "Lekka, zwiewna sukienka uszyta z bawełnianej tkaniny z motywem drobnych kwiatów.",
         images: [
-            { "src": "/clothes/women/shoes/1/image1.png", "alt": "Z przodu" },
-            { "src": "/clothes/women/shoes/1/image2.png", "alt": "Z boku" }
+            { "src": "/clothes/women/dress/1/image1.png", "alt": "Widok z przodu" },
+            { "src": "/clothes/women/dress/1/image2.png", "alt": "Widok z tyłu" }
         ],
-        id: 37,
+        id: 25,
         categorySex: 1,
-        categoryClothes: 5,
+        categoryClothes: 1,
         sale: false,
-        availableSize: ["36", "37", "38", "39"]
-    },
+        availableSize: ["s", "m", "l", "xl"]
+    }
 
 
 ]

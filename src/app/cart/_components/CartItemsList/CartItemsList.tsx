@@ -9,7 +9,7 @@ export const CartItemsList = () =>{
 
     return (
         <div className={styles.listBox}>
-            <h2>Lista produktów</h2>
+            <h3>Lista produktów</h3>
 
             <div className={styles.list}>
                 {cart.map((item,index)=>(

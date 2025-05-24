@@ -4,8 +4,6 @@ import { Heart , ShoppingCart} from 'lucide-react';
 import {MouseEvent} from "react";
 import {ElementType} from "@/Types/ClothesPage";
 import {useRouter} from "next/navigation";
-import {useContext} from "react";
-import {CartContext} from "@/context/CartContext";
 
 type Props = {
     item : ElementType

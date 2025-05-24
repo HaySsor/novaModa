@@ -5,7 +5,7 @@ export type ElementType = {
     categorySex : number,
     categoryClothes: number,
     sale: boolean,
-    sex: 'man' | 'woman',
+    sex: 'men' | 'woman',
     mainImage: string,
     mainImageAlt: string,
     images: {src : string, alt: string}[],
