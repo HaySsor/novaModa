@@ -1,15 +1,13 @@
 'use client'
 import styles from './BestSellers.module.scss';
 import {BestsellersData} from "@/data/Bestsellers";
-import {MouseEvent, useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import {ItemCard} from "@/components/ItemCard/ItemCard";
 import {ElementType} from "@/Types/ClothesPage";
 import {useRouter} from "next/navigation";
-import {CartContextProvider} from "@/context/CartContext";
 
 export const BestSellers = () => {
     const [bestSellers, setBestSellers] = useState<ElementType[]>([])
-    const router = useRouter()
 
     useEffect(() => {
         setBestSellers([...BestsellersData])

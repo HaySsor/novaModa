@@ -1,7 +1,7 @@
 'use client'
 import styles from './CartMobileButton.module.scss'
 import { ShoppingCart } from 'lucide-react';
-import {useContext, useEffect} from "react";
+import {useContext} from "react";
 import {CartContext} from "@/context/CartContext";
 import {useRouter} from "next/navigation";
 

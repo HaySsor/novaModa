@@ -12,7 +12,7 @@ export const CartItemsList = () =>{
             <h3>Lista produktów</h3>
 
             <div className={styles.list}>
-                {cart.map((item,index)=>(
+                {cart.map((item)=>(
                     <CartItemElement key={item.product.id} item={item}/>
                 ))}
             </div>

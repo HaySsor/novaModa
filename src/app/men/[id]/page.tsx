@@ -6,7 +6,7 @@ import {ProductsList} from "@/views/ProductsList/ProductsList";
 
 export default function Page() {
 
-    const {products, loading} = useFetchCategoryProducts('men')
+    const {products} = useFetchCategoryProducts('men')
 
     return (
         <div className={styles.pageWrapper}>

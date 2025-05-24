@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server'
 import dataJson from '@/data/MenClothes.json'
-import {ElementType} from "@/Types/ClothesPage";
 
 export async function GET() {
     const all = Object.values(dataJson).flat()

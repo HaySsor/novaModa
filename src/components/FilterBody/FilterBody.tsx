@@ -1,5 +1,5 @@
 import styles from './FilterBody.module.scss';
-import {ChangeEvent, MouseEvent, useEffect, useState} from "react";
+import {ChangeEvent, useState} from "react";
 import {useSyncFilterToUrl} from "@/hooks/UseSyncFilterToUrl";
 import {PRICE_RANGES} from "@/data/PriceRage";
 
@@ -9,9 +9,8 @@ export type FilterType = {
     priceRage: number[]
 }
 
-type Props = {}
 
-export const FilterBody = (props: Props) => {
+export const FilterBody = () => {
     const [useFilter, setUseFilter] = useState<FilterType>({
         size: [],
         sale: false,

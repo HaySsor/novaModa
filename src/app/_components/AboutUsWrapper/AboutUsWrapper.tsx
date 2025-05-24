@@ -1,9 +1,10 @@
 import styles from './AboutUsWrapper.module.scss'
 import {AboutUsRow} from "@/app/_components/AboutUsRow/AboutUsRow";
+import {IconNameType} from "@/Types/IconType";
 
 export type  AboutUsSectionsType = {
     title: string,
-    icon: any,
+    icon: IconNameType,
     text: string,
     img: string,
     imgAlt: string,

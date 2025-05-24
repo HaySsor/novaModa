@@ -30,7 +30,7 @@ export const ReviewItem = ({ review }: Props) => {
                 </div>
             </div>
             <div className={styles.reviewItemBottom}>
-                <p>"{review.text}"</p>
+                <p>&quot;{review.text}&quot;</p>
             </div>
         </div>
     )

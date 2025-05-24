@@ -1,6 +1,6 @@
 import styles from './ItemCard.module.scss';
 import Image from "next/image";
-import { Heart , ShoppingCart} from 'lucide-react';
+import { Heart } from 'lucide-react';
 import {MouseEvent} from "react";
 import {ElementType} from "@/Types/ClothesPage";
 import {useRouter} from "next/navigation";

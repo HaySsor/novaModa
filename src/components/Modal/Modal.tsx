@@ -4,13 +4,14 @@ import {modalOverlay, openModal} from "@/components/Modal/animation";
 import {motion, AnimatePresence} from "motion/react"
 import {DynamicIcon} from "lucide-react/dynamic";
 import { X } from 'lucide-react';
+import {IconNameType} from "@/Types/IconType";
 
 type Props = {
     children: ReactNode,
     isOpen: boolean,
     showModal: () => void,
     title: string,
-    icon: any
+    icon: IconNameType
 }
 
 export const Modal = ({children, isOpen, showModal, title, icon}: Props) => {
