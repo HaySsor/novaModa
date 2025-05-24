@@ -1,0 +1,106 @@
+.item{
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  gap: 12px;
+  border: 1px solid var(--secondary-color);
+  padding: 12px 10px;
+  border-radius: 8px;
+}
+.itemLeft{
+  width: 100%;
+  height: 100%;
+  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+}
+.itemRight{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.itemInfoBox{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: max-content;
+}
+
+.itemNameBox{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.itemName{
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.itemCategory{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  .dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--secondary-color);
+  }
+
+  span{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--secondary-color);
+    padding-bottom: 2px;
+  }
+}
+.itemDelete{
+  padding: 5px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  height: max-content;
+}
+
+.itemOptions{
+  align-self: end;
+  display: flex;
+  gap: 12px;
+}
+.select{
+  padding: 2px 6px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+}
+
+.quantityBox{
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  width: 70px;
+
+}
+.quantityButton{
+  width: 20px;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+
+}
+.itemQuantity{
+  width: 30px;
+  border-radius: 50%;
+  padding: 2px 6px;
+
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  margin: 0;
+  text-align: center;
+}

@@ -4,24 +4,22 @@ import { Heart , ShoppingCart} from 'lucide-react';
 import {MouseEvent} from "react";
 import {ElementType} from "@/Types/ClothesPage";
 import {useRouter} from "next/navigation";
+import {useContext} from "react";
+import {CartContext} from "@/context/CartContext";
 
 type Props = {
     item : ElementType
 }
 
 export const ItemCard = ({item} : Props) =>{
-
     const router = useRouter()
 
     const handleItemClick = (e: MouseEvent<HTMLDivElement>, item:ElementType) => {
         const target = e.target as HTMLElement;
         const heartElement = target.closest('[data-heart]');
-        const cardElement = target.closest('[data-cart]');
         if(heartElement){
 
-        } else if(cardElement){
-
-        }else{
+        } else{
             router.push(`/product/${item.id}`)
         }
     };
@@ -36,10 +34,6 @@ export const ItemCard = ({item} : Props) =>{
 
             <div data-heart className={`${styles.itemCardFav} ${item.isFavourite ? styles.itemCardFavActive : ''}`}>
                 <Heart size={20}/>
-            </div>
-            <div data-cart className={styles.itemCart}>
-                <ShoppingCart size={20} />
-                <span>Dodaj do koszyka</span>
             </div>
             <div className={styles.itemName}>
                 <span>{item.name}</span>

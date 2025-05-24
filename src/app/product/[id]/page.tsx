@@ -1,5 +1,5 @@
 'use client'
-import {useEffect, useState} from 'react'
+import {useEffect, useState, useContext} from 'react'
 import {useParams} from 'next/navigation'
 import type {ElementType} from '@/Types/ClothesPage'
 import styles from './page.module.scss'
@@ -7,6 +7,7 @@ import rawCategories from '@/data/CategoriesData.json'
 import {CategoriesType} from "@/Types/Categories";
 import {ProductImagesCarousel} from "@/components/ProductImagesCarousel/ProductImagesCarousel";
 import {Button} from "@/components/Button/Button";
+import {CartContextProvider, CartContext} from "@/context/CartContext";
 
 const Categories = rawCategories as unknown as CategoriesType
 
@@ -18,6 +19,8 @@ export default function ProductPage() {
     const [productCategory, setProductCategory] = useState<string | null>(null)
     const [selectSize, setSelectSize] = useState<string>('')
     const [noSizeError, setNoSizeError] = useState<boolean>(false)
+
+    const {addItem} = useContext(CartContext)
 
     useEffect(() => {
         if (!id) return
@@ -36,20 +39,24 @@ export default function ProductPage() {
             .catch(console.error)
     }, [id])
 
-    const handleAddToCart = () => {
-        if(!selectSize){
+    const handleAddToCart = async () => {
+        if (!selectSize) {
             setNoSizeError(true)
             return
         }
+        if (product) {
+            await addItem(product, selectSize)
+        }
+
     }
 
-    const handleSizeChange = (size : string) =>{
+    const handleSizeChange = (size: string) => {
         setSelectSize(size)
         setNoSizeError(false)
     }
 
     const handleAddToFavorite = () => {
-        if(!selectSize){
+        if (!selectSize) {
             setNoSizeError(true)
             return
         }
@@ -73,7 +80,8 @@ export default function ProductPage() {
                         </div>
                         <div className={styles.productMiddleBottom}>
                             <div className={`${styles.sizeContainer} ${noSizeError ? styles.noSizeSelect : ''}`}>
-                                {noSizeError && <span className={styles.sizeError}> Najpierw wybierz rozmiar </span>}
+                                {noSizeError &&
+                                    <span className={styles.sizeError}> Najpierw wybierz rozmiar </span>}
                                 <span> Wybierz rozmiar: </span>
                                 <div className={styles.sizeBox}>
                                     {product.availableSize.map(size => {

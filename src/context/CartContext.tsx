@@ -1,7 +1,8 @@
-import {CartItem} from "@/Types/CartItem";
-import {createContext, ReactElement, useReducer, useState} from "react";
-import {ElementType} from "@/Types/ClothesPage";
-
+// context/CartContext.tsx
+'use client'
+import React, { createContext, ReactElement, ReactNode, useState, useEffect } from 'react'
+import type { ElementType } from '@/Types/ClothesPage'
+import type { CartItem }     from '@/Types/CartItem'
 
 export interface CartContextValue {
     cart: CartItem[]
@@ -9,6 +10,8 @@ export interface CartContextValue {
     removeOne: (productId: number, size: string) => Promise<void>
     removeAll: (productId: number, size: string) => Promise<void>
     setQuantity: (productId: number, size: string, quantity: number) => Promise<void>
+    changeSize: (productId: number, oldSize: string, newSize: string) => Promise<void>
+    syncCart: () => Promise<void>
 }
 
 export const CartContext = createContext<CartContextValue>({
@@ -17,20 +20,13 @@ export const CartContext = createContext<CartContextValue>({
     removeOne: async () => {},
     removeAll: async () => {},
     setQuantity: async () => {},
+    changeSize: async () => {},
+    syncCart: async () => {},
 })
 
-export interface CartContextValue {
-    cart: CartItem[]
-    addItem: (product: ElementType, size: string) => Promise<void>
-    removeOne: (productId: number, size: string) => Promise<void>
-    removeAll: (productId: number, size: string) => Promise<void>
-    setQuantity: (productId: number, size: string, quantity: number) => Promise<void>
-}
-
-export const CartContextProvider = ({ children }: { children: ReactElement }) => {
+export const CartContextProvider = ({ children }: { children: ReactElement | ReactNode }) => {
     const [cart, setCart] = useState<CartItem[]>([])
 
-    // Helper: synchronizuj cały koszyk z API GET
     const syncCart = async () => {
         const res = await fetch('/api/cart')
         const data: CartItem[] = await res.json()
@@ -64,11 +60,7 @@ export const CartContextProvider = ({ children }: { children: ReactElement }) =>
         await syncCart()
     }
 
-    const setQuantity = async (
-        productId: number,
-        size: string,
-        quantity: number
-    ) => {
+    const setQuantity = async (productId: number, size: string, quantity: number) => {
         await fetch('/api/cart', {
             method: 'PATCH',
             headers: { 'Content-Type': 'application/json' },
@@ -77,16 +69,21 @@ export const CartContextProvider = ({ children }: { children: ReactElement }) =>
         await syncCart()
     }
 
-    const value: CartContextValue = {
-        cart,
-        addItem,
-        removeOne,
-        removeAll,
-        setQuantity,
+    const changeSize = async (productId: number, oldSize: string, newSize: string) => {
+        await fetch('/api/cart', {
+            method: 'PATCH',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id: productId, size: oldSize, newSize }),
+        })
+        await syncCart()
     }
 
+    useEffect(() => {
+        syncCart()
+    }, [])
+
     return (
-        <CartContext.Provider value={value}>
+        <CartContext.Provider value={{ cart, addItem, removeOne, removeAll, setQuantity, changeSize, syncCart }}>
             {children}
         </CartContext.Provider>
     )

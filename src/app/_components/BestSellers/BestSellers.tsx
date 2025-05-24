@@ -5,29 +5,27 @@ import {MouseEvent, useEffect, useState} from "react";
 import {ItemCard} from "@/components/ItemCard/ItemCard";
 import {ElementType} from "@/Types/ClothesPage";
 import {useRouter} from "next/navigation";
+import {CartContextProvider} from "@/context/CartContext";
 
-export const BestSellers = () =>{
+export const BestSellers = () => {
     const [bestSellers, setBestSellers] = useState<ElementType[]>([])
     const router = useRouter()
 
     useEffect(() => {
         setBestSellers([...BestsellersData])
-      return () =>{
-          setBestSellers([]);
-      }
+        return () => {
+            setBestSellers([]);
+        }
     }, []);
-
-
 
 
     return (
         <div className={styles.bestSellersWrapper}>
             <h2 className={`sectionTitle`}> Bestsellery </h2>
-
             <div className={styles.bestSellersItems}>
                 {bestSellers.map(item => {
                     return (
-                        <ItemCard key={item.id} item={item} />
+                        <ItemCard key={item.id} item={item}/>
                     )
                 })}
             </div>
