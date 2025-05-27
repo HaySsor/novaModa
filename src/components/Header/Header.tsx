@@ -2,7 +2,7 @@
 import styles from './Header.module.scss';
 import Image from "next/image";
 import {HeaderMenu} from "@/components/HeaderMenu/HeaderMenu";
-import {CartMobileButton} from "@/components/CartMobileButton/CartMobileButton";
+import {CartFavButton} from "@/components/CartFavButton/CartFavButton";
 import Link from "next/link";
 
 export const Header = () => {
@@ -18,7 +18,7 @@ export const Header = () => {
                     />
                 </Link>
                 <HeaderMenu/>
-                <CartMobileButton/>
+                <CartFavButton/>
             </div>
         </header>
     );

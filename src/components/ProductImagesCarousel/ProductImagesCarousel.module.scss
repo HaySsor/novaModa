@@ -3,14 +3,12 @@
   border: 7px solid var(--primary-color);
   border-radius: 4px;
   overflow: hidden;
-  min-height: 520px;
 }
 
 .imagesBox {
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  /* ukrycie paska przewijania: */
   scrollbar-width: none;
   -ms-overflow-style: none;
   gap: 8px;

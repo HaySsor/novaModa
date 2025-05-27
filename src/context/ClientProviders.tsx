@@ -3,6 +3,7 @@
 
 import {ReactNode} from 'react'
 import {CartContextProvider} from '@/context/CartContext'
+import {FavoritesContextProvider} from '@/context/FavoritesContext'
 
 
 type Props = { children: ReactNode }
@@ -11,7 +12,9 @@ export function ClientProviders({children}: Props) {
 
     return (
         <CartContextProvider>
-            {children}
+            <FavoritesContextProvider>
+                {children}
+            </FavoritesContextProvider>
         </CartContextProvider>
     )
 }

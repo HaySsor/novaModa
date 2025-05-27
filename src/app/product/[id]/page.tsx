@@ -6,8 +6,11 @@ import styles from './page.module.scss'
 import rawCategories from '@/data/CategoriesData.json'
 import {CategoriesType} from "@/Types/Categories";
 import {ProductImagesCarousel} from "@/components/ProductImagesCarousel/ProductImagesCarousel";
+import {FavoritesContext} from "@/context/FavoritesContext";
+import {Heart} from 'lucide-react'
+import {AnimatePresence, motion} from 'motion/react'
+import {AddCardButton} from "@/app/product/[id]/_components/AddCardButton/AddCardButton";
 import {Button} from "@/components/Button/Button";
-import {CartContextProvider, CartContext} from "@/context/CartContext";
 
 const Categories = rawCategories as unknown as CategoriesType
 
@@ -19,8 +22,9 @@ export default function ProductPage() {
     const [productCategory, setProductCategory] = useState<string | null>(null)
     const [selectSize, setSelectSize] = useState<string>('')
     const [noSizeError, setNoSizeError] = useState<boolean>(false)
+    const [isFavorite, setIsFavorite] = useState(false)
 
-    const {addItem} = useContext(CartContext)
+    const {favorites, addFavorite, deleteFavorite} = useContext(FavoritesContext)
 
     useEffect(() => {
         if (!id) return
@@ -39,26 +43,28 @@ export default function ProductPage() {
             .catch(console.error)
     }, [id])
 
-    const handleAddToCart = async () => {
-        if (!selectSize) {
-            setNoSizeError(true)
-            return
-        }
+    useEffect(() => {
+        if (favorites.length === 0) return
         if (product) {
-            await addItem(product, selectSize)
+            const found = favorites.find(fav => fav.id === product.id)
+            if (found) {
+                setIsFavorite(true)
+            }
         }
-
-    }
+    }, [favorites, product])
 
     const handleSizeChange = (size: string) => {
         setSelectSize(size)
         setNoSizeError(false)
     }
 
-    const handleAddToFavorite = () => {
-        if (!selectSize) {
-            setNoSizeError(true)
-            return
+    const handleAddToFavorite = async () => {
+        if (product && !isFavorite) {
+            await addFavorite(product)
+            setIsFavorite(true)
+        } else if (product && isFavorite) {
+            await deleteFavorite(product)
+            setIsFavorite(false)
         }
     }
 
@@ -71,7 +77,18 @@ export default function ProductPage() {
                 <div className={styles.productInfo}>
                     <div className={styles.productTop}>
                         <span className={styles.categoryName}>{productCategory}</span>
-                        <h2 className={styles.productName}>{product.name}</h2>
+                        <h2 className={styles.productName}>{product.name}
+                            <AnimatePresence>
+                                {isFavorite &&
+                                    <motion.div key='box'
+                                                initial={{opacity: 0, scale: 0}}
+                                                animate={{opacity: 1, scale: 1}}
+                                                exit={{opacity: 0, scale: 0}}
+                                    >
+                                        <Heart size={20} fill={'#F08080FF'} stroke={'#F08080FF'}/>
+                                    </motion.div>}
+                            </AnimatePresence>
+                        </h2>
                     </div>
                     <div className={styles.productMiddle}>
                         <p>{product.description}</p>
@@ -100,14 +117,11 @@ export default function ProductPage() {
                                 <Button
                                     onClick={handleAddToFavorite}
                                     isFull={true}
-                                    text={'Dodaj do ulubionych'}
-                                    icon={'heart'}/>
-                                <Button
-                                    onClick={handleAddToCart}
-                                    isFull={true}
-                                    text={'Dodaj do koszyka'}
-                                    icon={'plus'}/>
+                                    text={isFavorite ? 'Usuń z ulubionych' : 'Dodaj do ulubionych'}
+                                    icon={isFavorite ? 'heart-off' : 'heart'}/>
+                                <AddCardButton product={product} size={selectSize} setIsErrorAction={setNoSizeError} />
                             </div>
+
                         </div>
 
                     </div>

@@ -11,12 +11,12 @@
   }
 }
 
-.list{
+.list , .emptyCap{
   display: flex;
   flex-direction: column;
   margin-top: 20px;
   gap: 12px;
-  background-color: rgba(225, 225, 225, 0.48);
+  background-color: var(--primary-color);
   border-radius: 8px;
   padding: 10px;
   box-shadow: var(--inside-shadow);
@@ -26,8 +26,38 @@
     overflow: auto;
     max-height: calc(220px * 3);
     box-shadow: none;
-    background-color: transparent;
     padding: 20px;
-    border: 1px solid var(--secondary-color);
+    background-color: rgba(239, 230, 221, 0.4);
+  }
+}
+
+.emptyCap{
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span{
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    color: lightslategrey;
+    opacity: 0.6;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: var(--shadow);
+  }
+
+  @media (width > 1260px) {
+   span{
+     box-shadow: none;
+     width: 90%;
+   }
   }
 }

@@ -1,4 +1,3 @@
-'use client'
 import styles from './page.module.scss'
 import {CartItemsList} from "@/app/cart/_components/CartItemsList/CartItemsList";
 import {SumBox} from "@/app/cart/_components/SumBox/SumBox";

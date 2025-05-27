@@ -1,0 +1,61 @@
+.cartFavBox{
+  position:fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 90px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  grid-auto-columns: 1fr 1fr;
+  z-index: 80;
+  user-select: none;
+
+  @media (width > 1260px) {
+    position: relative;
+    right: unset;
+    bottom: unset;
+    justify-self: end;
+    background-color: transparent;
+  }
+}
+
+.cartButton, .favButton{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: background-color 0.2s;
+
+  &:hover{
+    background-color: var(--primary-hover-color);
+  }
+
+  @media (width > 1260px) {
+    box-shadow: 0 0 10px #0000001a;
+  }
+}
+.cartCounter{
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  background-color: var(--primary-color);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  span{
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+}

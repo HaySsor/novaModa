@@ -7,8 +7,6 @@ import type { ClothesPage, ElementType } from '@/Types/ClothesPage'
 const MEN_DATA   = menData   as unknown as ClothesPage
 const WOMAN_DATA = womanData as unknown as ClothesPage
 
-interface Params { params: { id: string } }
-
 export async function GET(_: Request, context:any ) {
     const id = Number(context.params.id)
 

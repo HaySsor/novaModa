@@ -9,7 +9,8 @@
 
   @media (width > 1260px) {
     grid-template-columns: 90px auto;
-
+    box-shadow: none;
+    border: 1px solid var(--secondary-color);
   }
 }
 .itemLeft{
@@ -90,8 +91,18 @@
 .itemDelete{
   padding: 5px;
   background-color: var(--primary-color);
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:hover{
+    background-color: var(--primary-hover-color);
+  }
 }
 
 .itemOptions{
@@ -130,6 +141,11 @@
   background-color: transparent;
    border: 1px solid var(--secondary-color);
   border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  &:hover{
+    background-color: var(--primary-hover-color);
+  }
 }
 
 .itemQuantity{

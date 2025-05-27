@@ -14,7 +14,7 @@
 .sumBox{
   margin-top: 20px;
   display: flex;
-  background-color: rgba(225, 225, 225, 0.48);
+  background-color: var(--primary-color);
   border-radius: 8px;
   padding: 10px;
   box-shadow: var(--inside-shadow);

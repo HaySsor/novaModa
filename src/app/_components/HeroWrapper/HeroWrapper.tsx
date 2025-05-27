@@ -23,8 +23,6 @@ export const HeroWrapper = ({}) => {
                     rzemiosła</h3>
                 <p>Szyjemy ręcznie, z dbałością o najmniejszy detal, bo wierzymy, że prawdziwe piękno kryje się w
                     jakości, a styl zaczyna się od serca.</p>
-
-               <HeroButton />
             </div>
 
             <div className={styles.heroDesktopImagesGrid}>

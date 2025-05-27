@@ -1,3 +1,4 @@
+'use client'
 import styles from './SumBox.module.scss';
 import {CartContext} from "@/context/CartContext";
 import {useContext} from "react";
@@ -30,7 +31,7 @@ export const SumBox = () => {
                         </div>
                         <div className={styles.infoRow}>
                             <span>Koszt wysyłki</span>
-                            <span> {SEND_PRICE} PLN</span>
+                            <span> { cart.length > 0 ? SEND_PRICE : 0} PLN</span>
                         </div>
                     </div>
                     <div className={styles.sumBoxMainBottom}>
@@ -40,11 +41,11 @@ export const SumBox = () => {
                         </div>
                         <div className={styles.infoRow}>
                             <span>U ciebie za </span>
-                            <span> 2 dni</span>
+                            <span> {cart.length > 0 ? 2 : 0} dni</span>
                         </div>
                     </div>
                     <div className={styles.buttonBox}>
-                        <Button onClick={()=>{}} isFull={true} text={'Zapłać'} />
+                        <Button isDisabled={cart.length < 1} onClick={()=>{}} isFull={true} text={'Zapłać'} />
                     </div>
                 </div>
             </div>

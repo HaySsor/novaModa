@@ -8,10 +8,8 @@
   overflow: hidden;
   cursor: pointer;
   img{
-    object-fit: cover;
+    object-fit: fill;
   }
-
-
 }
 
 .itemCardFav, .itemCart{
